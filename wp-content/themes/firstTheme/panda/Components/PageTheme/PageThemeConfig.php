@@ -2,7 +2,6 @@
 
 namespace Components\PageTheme;
 
-use Enums\MeetingLengthsEnum;
 use Utils\Util;
 
 class PageThemeConfig implements \KT_Configable
@@ -19,10 +18,11 @@ class PageThemeConfig implements \KT_Configable
     public static function getAllNormalFieldsets()
     {
         return [
+            self::START_BEGINNERS_FIELDSET => self::getStartBeginnersFieldset(),
+            self::START_ADVANCED_FIELDSET => self::getStartAdvancedFieldset(),
             self::CONTACT_PERSON_FIELDSET => self::getContactPersonFieldset(),
-            self::CONTACT_FIELDSET => self::getContactFieldset(),
-            self::OPENING_HOURS_FIELDSET => self::getOpeningHoursFieldset(),
-            self::ANALYTICS_FIELDSET => self::getAnalyticsFieldset(),
+            self::TITLES_FIELDSET => self::getTitlesFieldset(),
+            self::OTHER_FIELDSET => self::getOtherFieldset(),
         ];
     }
 
@@ -30,6 +30,61 @@ class PageThemeConfig implements \KT_Configable
     {
         return [];
     }
+
+    // --- KDY ZAČÍNÁME - ZAČÁTEČNÍCI ------------------------
+
+    const START_BEGINNERS_FIELDSET = self::FORM_PREFIX . "-start-beginners";
+    const START_BEGINNERS_TITLE = self::START_BEGINNERS_FIELDSET . "-title";
+    const START_BEGINNERS_DATE = self::START_BEGINNERS_FIELDSET . "-date";
+    const START_BEGINNERS_PLACE = self::START_BEGINNERS_FIELDSET . "-place";
+    const START_BEGINNERS_ADDRESS = self::START_BEGINNERS_FIELDSET . "-address";
+    const START_BEGINNERS_MAX_CANDIDATE = self::START_BEGINNERS_FIELDSET . "-max-candidate";
+    const START_BEGINNERS_ACTUAL_CANDIDATE = self::START_BEGINNERS_FIELDSET . "-actual-candidate";
+    const START_BEGINNERS_PRICE = self::START_BEGINNERS_FIELDSET . "-price";
+
+
+    public static function getStartBeginnersFieldset()
+    {
+        $fieldset = new \KT_Form_Fieldset(self::START_BEGINNERS_FIELDSET, __("Kdy začínáme - začátečníci", "RLG_DOMAIN"));
+        $fieldset->setPostPrefix(self::START_BEGINNERS_FIELDSET);
+
+        $fieldset->addText(self::START_BEGINNERS_TITLE, __("Titulek:", "RLG_DOMAIN"));
+        $fieldset->addText(self::START_BEGINNERS_DATE, __("Datum:", "RLG_DOMAIN"));
+        $fieldset->addText(self::START_BEGINNERS_PLACE, __("Místo:", "RLG_DOMAIN"));
+        $fieldset->addText(self::START_BEGINNERS_ADDRESS, __("Adresa:", "RLG_DOMAIN"));
+        $fieldset->addNumeric(self::START_BEGINNERS_MAX_CANDIDATE, __("Maximální počet uchazečů:", "RLG_DOMAIN"));
+        $fieldset->addNumeric(self::START_BEGINNERS_ACTUAL_CANDIDATE, __("Aktuální počet uchazečů:", "RLG_DOMAIN"));
+        $fieldset->addNumeric(self::START_BEGINNERS_PRICE, __("Cena:", "RLG_DOMAIN"));
+        return $fieldset;
+    }
+
+    // --- KDY ZAČÍNÁME - POKROČILÝ ------------------------
+
+    const START_ADVANCED_FIELDSET = self::FORM_PREFIX . "-start-advanced";
+    const START_ADVANCED_TITLE = self::START_ADVANCED_FIELDSET . "-title";
+    const START_ADVANCED_DATE = self::START_ADVANCED_FIELDSET . "-date";
+    const START_ADVANCED_PLACE = self::START_ADVANCED_FIELDSET . "-place";
+    const START_ADVANCED_ADDRESS = self::START_ADVANCED_FIELDSET . "-address";
+    const START_ADVANCED_MAX_CANDIDATE = self::START_ADVANCED_FIELDSET . "-max-candidate";
+    const START_ADVANCED_ACTUAL_CANDIDATE = self::START_ADVANCED_FIELDSET . "-actual-candidate";
+    const START_ADVANCED_PRICE = self::START_ADVANCED_FIELDSET . "-price";
+
+
+    public static function getStartAdvancedFieldset()
+    {
+        $fieldset = new \KT_Form_Fieldset(self::START_ADVANCED_FIELDSET, __("Kdy začínáme - pokročilý", "RLG_DOMAIN"));
+        $fieldset->setPostPrefix(self::START_ADVANCED_FIELDSET);
+
+        $fieldset->addText(self::START_ADVANCED_TITLE, __("Titulek:", "RLG_DOMAIN"));
+        $fieldset->addText(self::START_ADVANCED_DATE, __("Datum:", "RLG_DOMAIN"));
+        $fieldset->addText(self::START_ADVANCED_PLACE, __("Místo:", "RLG_DOMAIN"));
+        $fieldset->addText(self::START_ADVANCED_ADDRESS, __("Adresa:", "RLG_DOMAIN"));
+        $fieldset->addNumeric(self::START_ADVANCED_MAX_CANDIDATE, __("Maximální počet uchazečů:", "RLG_DOMAIN"));
+        $fieldset->addNumeric(self::START_ADVANCED_ACTUAL_CANDIDATE, __("Aktuální počet uchazečů:", "RLG_DOMAIN"));
+        $fieldset->addNumeric(self::START_ADVANCED_PRICE, __("Cena:", "RLG_DOMAIN"));
+        return $fieldset;
+    }
+
 
     // --- KONTAKTNÍ OSOBA ------------------------
 
@@ -52,91 +107,43 @@ class PageThemeConfig implements \KT_Configable
         return $fieldset;
     }
 
+    // --- TITULKY SEKCÍ ------------------------
 
-    // --- KONTAKTY ------------------------
+    const TITLES_FIELDSET = self::FORM_PREFIX . "-titles";
+    const TITLES_HOME = self::TITLES_FIELDSET . "-home";
+    const TITLES_START = self::TITLES_FIELDSET . "-start";
+    const TITLES_PROGRAMM = self::TITLES_FIELDSET . "-programm";
+    const TITLES_LECTORS = self::TITLES_FIELDSET . "-lectors";
+    const TITLES_FAQ = self::TITLES_FIELDSET . "-faq";
+    const TITLES_CONTACT_PERSON = self::TITLES_FIELDSET . "-person";
+    const TITLES_APPLICATION = self::TITLES_FIELDSET . "-application";
 
-    const CONTACT_FIELDSET = self::FORM_PREFIX . "-contact";
-    const CONTACT_COMPANY_NAME = self::CONTACT_FIELDSET . "-name";
-    const CONTACT_STREET = self::CONTACT_FIELDSET . "-street";
-    const CONTACT_CITY = self::CONTACT_FIELDSET . "-city";
-    const CONTACT_ZIP = self::CONTACT_FIELDSET . "-zip";
-    const CONTACT_PHONE = self::CONTACT_FIELDSET . "-contact-phone";
-    const CONTACT_EMAIL = self::CONTACT_FIELDSET . "-contact-email";
-    const CONTACT_DESCRIPTION = self::CONTACT_FIELDSET . "-description";
-    const CONTACT_DIC = self::CONTACT_FIELDSET . "-dic";
-    const CONTACT_ICO = self::CONTACT_FIELDSET . "-ico";
-    const CONTACT_ESTABLISHMENT = self::CONTACT_FIELDSET . "-establishment";
-    const CONTACT_LOGO_ID = self::CONTACT_FIELDSET . "-logo-id";
-
-    public static function getContactFieldset()
+    public static function getTitlesFieldset()
     {
-        $fieldset = new \KT_Form_Fieldset(self::CONTACT_FIELDSET, __("Kontaktní údaje pro vyhledávače", "RLG_DOMAIN"));
-        $fieldset->setPostPrefix(self::CONTACT_FIELDSET);
+        $fieldset = new \KT_Form_Fieldset(self::TITLES_FIELDSET, __("Titulky sekcí", "RLG_DOMAIN"));
+        $fieldset->setPostPrefix(self::TITLES_FIELDSET);
 
-        $fieldset->addText(self::CONTACT_COMPANY_NAME, __("Název Firmy:", "RLG_DOMAIN"));
-        $fieldset->addText(self::CONTACT_STREET, __("Ulice a ČP:", "RLG_DOMAIN"));
-        $fieldset->addText(self::CONTACT_CITY, __("Město:", "RLG_DOMAIN"));
-        $fieldset->addText(self::CONTACT_ZIP, __("PSČ:", "RLG_DOMAIN"));
-        $fieldset->addText(self::CONTACT_PHONE, __("Telefon:", "RLG_DOMAIN"));
-        $fieldset->addText(self::CONTACT_EMAIL, __("E-mail:", "RLG_DOMAIN"))
-            ->setInputType(\KT_Text_Field::INPUT_EMAIL)
-            ->addRule(\KT_Field_Validator::EMAIL, __("E-mail musí být ve správném tvaru", "RLG_DOMAIN"));
-        $fieldset->addDate(self::CONTACT_ESTABLISHMENT, __("Datum založení:", "RLG_DOMAIN"));
-        $fieldset->addText(self::CONTACT_DESCRIPTION, __("Popisek:", "RLG_DOMAIN"));
-        $fieldset->addText(self::CONTACT_DIC, __("DIČ:", "RLG_DOMAIN"));
-        $fieldset->addText(self::CONTACT_ICO, __("IČO:", "RLG_DOMAIN"));
-        $fieldset->addMedia(self::CONTACT_LOGO_ID, __("Logo:", "RLG_DOMAIN"));
-
-
+        $fieldset->addText(self::TITLES_HOME, __("Úvod:", "RLG_DOMAIN"));
+        $fieldset->addText(self::TITLES_START, __("Kdy začínáme:", "RLG_DOMAIN"));
+        $fieldset->addText(self::TITLES_PROGRAMM, __("Program:", "RLG_DOMAIN"));
+        $fieldset->addText(self::TITLES_LECTORS, __("Přednášející:", "RLG_DOMAIN"));
+        $fieldset->addText(self::TITLES_FAQ, __("FAQ:", "RLG_DOMAIN"));
+        $fieldset->addText(self::TITLES_CONTACT_PERSON, __("Kontaktní osoba:", "RLG_DOMAIN"));
+        $fieldset->addText(self::TITLES_APPLICATION, __("Přihláška:", "RLG_DOMAIN"));
         return $fieldset;
     }
 
-    // --- Otevírací doba ------------------------
+    // --- OSTATNÍ ------------------------
 
-    const OPENING_HOURS_FIELDSET = self::FORM_PREFIX . "-opening-hours";
-    const OPENING_HOURS_MON_FRI = self::OPENING_HOURS_FIELDSET . "-mon-fri";
-    const OPENING_HOURS_MONDAY = self::OPENING_HOURS_FIELDSET . "-monday";
-    const OPENING_HOURS_TUESDAY = self::OPENING_HOURS_FIELDSET . "-tuesday";
-    const OPENING_HOURS_WEDNESDAY = self::OPENING_HOURS_FIELDSET . "-wednesday";
-    const OPENING_HOURS_THURSDAY = self::OPENING_HOURS_FIELDSET . "-thursday";
-    const OPENING_HOURS_FRIDAY = self::OPENING_HOURS_FIELDSET . "-friday";
-    const OPENING_HOURS_SATURDAY = self::OPENING_HOURS_FIELDSET . "-saturday";
-    const OPENING_HOURS_SUNDAY = self::OPENING_HOURS_FIELDSET . "-sunday";
+    const OTHER_FIELDSET = self::FORM_PREFIX . "-other";
+    const OTHER_NEAREST_DATE = self::OTHER_FIELDSET . "-nearest_date";
 
-    public static function getOpeningHoursFieldset()
+    public static function getOtherFieldset()
     {
-        $fieldset = new \KT_Form_Fieldset(self::OPENING_HOURS_FIELDSET, __("Otevírací doba", "RLG_DOMAIN"));
-        $fieldset->setPostPrefix(self::OPENING_HOURS_FIELDSET);
+        $fieldset = new \KT_Form_Fieldset(self::OTHER_FIELDSET, __("Ostatní", "RLG_DOMAIN"));
+        $fieldset->setPostPrefix(self::OTHER_FIELDSET);
 
-        $fieldset->addText(self::OPENING_HOURS_MON_FRI, __("Po-Pá:", "RLG_DOMAIN"));
-        $fieldset->addText(self::OPENING_HOURS_MONDAY, __("Pondělí:", "RLG_DOMAIN"));
-        $fieldset->addText(self::OPENING_HOURS_TUESDAY, __("Úterý:", "RLG_DOMAIN"));
-        $fieldset->addText(self::OPENING_HOURS_WEDNESDAY, __("Středa:", "RLG_DOMAIN"));
-        $fieldset->addText(self::OPENING_HOURS_THURSDAY, __("Čtvrtek:", "RLG_DOMAIN"));
-        $fieldset->addText(self::OPENING_HOURS_FRIDAY, __("Pátek:", "RLG_DOMAIN"));
-        $fieldset->addText(self::OPENING_HOURS_SATURDAY, __("Sobota:", "RLG_DOMAIN"));
-        $fieldset->addText(self::OPENING_HOURS_SUNDAY, __("Neděle:", "RLG_DOMAIN"));
-
-        return $fieldset;
-    }
-
-    // --- ANALYTIKA ------------------------
-
-    const ANALYTICS_FIELDSET = self::FORM_PREFIX . "-analytics";
-    const ANALYTICS_HEADER_CODE = self::ANALYTICS_FIELDSET . "-header-code";
-    const ANALYTICS_BODY_CODE = self::ANALYTICS_FIELDSET . "-body-code";
-
-    public static function getAnalyticsFieldset()
-    {
-        $fieldset = new \KT_Form_Fieldset(self::ANALYTICS_FIELDSET, __("Analytika", "RLG_DOMAIN"));
-        $fieldset->setPostPrefix(self::ANALYTICS_FIELDSET);
-
-        $fieldset->addTextarea(self::ANALYTICS_HEADER_CODE, __("Kód v header:", "RLG_DOMAIN"))
-            ->setFilterSanitize(FILTER_DEFAULT);
-
-        $fieldset->addTextarea(self::ANALYTICS_BODY_CODE, __("Kód v body:", "RLG_DOMAIN"))
-            ->setFilterSanitize(FILTER_DEFAULT);
-
+        $fieldset->addText(self::OTHER_NEAREST_DATE, __("Nejbližší termín:", "RLG_DOMAIN"));
         return $fieldset;
     }
 }

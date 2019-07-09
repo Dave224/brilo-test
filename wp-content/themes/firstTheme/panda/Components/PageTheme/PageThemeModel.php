@@ -7,10 +7,6 @@ use Utils\Util;
 class PageThemeModel extends \KT_WP_Options_Base_Model
 {
 
-    private $SocialsSameAsData;
-    private $ContactLogoSrc;
-
-
     public function __construct()
     {
         parent::__construct(PageThemeConfig::FORM_PREFIX);
@@ -18,105 +14,81 @@ class PageThemeModel extends \KT_WP_Options_Base_Model
 
     //? --- getry & setry ------------------------
 
+    //* --- Kdy začínáme - začátečníci
+    //* --- Prefix: StartBeginners
 
-    //* --- Kontakt
-    //* --- Prefix: Contact
-
-    public function getContactCompanyName()
+    public function getStartBeginnersTitle()
     {
-        return $this->getOption(PageThemeConfig::CONTACT_COMPANY_NAME);
+        return $this->getOption(PageThemeConfig::START_BEGINNERS_TITLE);
     }
 
-    public function getContactStreet()
+    public function getStartBeginnersDate()
     {
-        return $this->getOption(PageThemeConfig::CONTACT_STREET);
+        return $this->getOption(PageThemeConfig::START_BEGINNERS_DATE);
     }
 
-    public function getContactCity()
+    public function getStartBeginnersPlace()
     {
-        return $this->getOption(PageThemeConfig::CONTACT_CITY);
+        return $this->getOption(PageThemeConfig::START_BEGINNERS_PLACE);
     }
 
-    public function getContactZip()
+    public function getStartBeginnersAddress()
     {
-        return $this->getOption(PageThemeConfig::CONTACT_ZIP);
+        return $this->getOption(PageThemeConfig::START_BEGINNERS_ADDRESS);
     }
 
-    public function getContactPhone()
+    public function getStartBeginnersMaxCandidate()
     {
-        return $this->getOption(PageThemeConfig::CONTACT_PHONE);
+        return $this->getOption(PageThemeConfig::START_BEGINNERS_MAX_CANDIDATE);
     }
 
-    public function getContactPhoneClean()
+    public function getStartBeginnersActualCandidate()
     {
-        return Util::clearPhoneNumber($this->getContactPhone());
+        return $this->getOption(PageThemeConfig::START_BEGINNERS_ACTUAL_CANDIDATE);
     }
 
-    public function getContactPhoneFancy()
+    public function getStartBeginnersPrice()
     {
-        return Util::phoneNumberFormat($this->getContactPhone());
+        return $this->getOption(PageThemeConfig::START_BEGINNERS_PRICE);
     }
 
-    public function getContactEmail()
+    //* --- Kdy začínáme - pokročilý
+    //* --- Prefix: StartAdvanced
+
+    public function getStartAdvancedTitle()
     {
-        return $this->getOption(PageThemeConfig::CONTACT_EMAIL);
+        return $this->getOption(PageThemeConfig::START_ADVANCED_TITLE);
     }
 
-    public function getContactEmailFancy()
+    public function getStartAdvancedDate()
     {
-        $email = $this->getContactEmail();
-        $wordToFind  = '@';
-        $wrap_before = '<span>';
-        $wrap_after  = '</span>';
-
-        $fancyEmail = preg_replace("/($wordToFind)/i", "$wrap_before$1$wrap_after", $email);
-        return $fancyEmail;
+        return $this->getOption(PageThemeConfig::START_ADVANCED_DATE);
     }
 
-    public function getContactDescription()
+    public function getStartAdvancedPlace()
     {
-        return $this->getOption(PageThemeConfig::CONTACT_DESCRIPTION);
+        return $this->getOption(PageThemeConfig::START_ADVANCED_PLACE);
     }
 
-    public function getContactEstablishment()
+    public function getStartAdvancedAddress()
     {
-        return $this->getOption(PageThemeConfig::CONTACT_ESTABLISHMENT);
+        return $this->getOption(PageThemeConfig::START_ADVANCED_ADDRESS);
     }
 
-    public function getContactDic()
+    public function getStartAdvancedMaxCandidate()
     {
-        return $this->getOption(PageThemeConfig::CONTACT_DIC);
+        return $this->getOption(PageThemeConfig::START_ADVANCED_MAX_CANDIDATE);
     }
 
-    public function getContactIco()
+    public function getStartAdvancedActualCandidate()
     {
-        return $this->getOption(PageThemeConfig::CONTACT_ICO);
+        return $this->getOption(PageThemeConfig::START_ADVANCED_ACTUAL_CANDIDATE);
     }
 
-    public function getContactLogoId()
+    public function getStartAdvancedPrice()
     {
-        return $this->getOption(PageThemeConfig::CONTACT_LOGO_ID);
+        return $this->getOption(PageThemeConfig::START_ADVANCED_PRICE);
     }
-
-    /** @return string */
-    public function getContactLogoSrc()
-    {
-        if (isset($this->ContactLogoSrc)) {
-            return $this->ContactLogoSrc;
-        }
-
-        if ($this->isContactLogoId()) {
-            return $this->ContactLogoSrc = Util::getImageSrc($this->getContactLogoId(), KT_WP_IMAGE_SIZE_ORIGINAL);
-        }
-
-        return $this->ContactLogoSrc = "";
-    }
-
-    public function getContactAdressFull()
-    {
-        return $adress = $this->getContactStreet() . ", " . $this->getContactCity();
-    }
-
 
     //* --- Kontaktní osoba
     //* --- Prefix: ContactPerson
@@ -141,233 +113,52 @@ class PageThemeModel extends \KT_WP_Options_Base_Model
         return $this->getOption(PageThemeConfig::CONTACT_PERSON_PHOTO);
     }
 
-    /** @return array */
-//    public function getSocialsSameAsData()
-//    {
-//        if (isset($this->SocialsSameAsData)) {
-//            return $this->SocialsSameAsData;
-//        }
-//        $data = [];
-//        if ($this->isSocialFacebook()) {
-//            $data[] = sprintf("%s - social network profile (Facebook)", $this->getSocialFacebook());
-//        }
-//        if ($this->isSocialInstagram()) {
-//            $data[] = sprintf("%s - social network profile (Instagram)", $this->getSocialInstagram());
-//        }
-//        if ($this->isSocialYoutube()) {
-//            $data[] = sprintf("%s - social network profile (YouTube)", $this->getSocialYoutube());
-//        }
-//        return $this->SocialsSameAsData = $data;
-//    }
+    //* --- Titulky sekcí
+    //* --- Prefix: Titles
 
-    //* --- Otevírací doba
-    //* --- Prefix: OpeningHours
-
-    public function getOpeningHoursMonFri()
+    public function getTitleHome()
     {
-        return $this->getOption(PageThemeConfig::OPENING_HOURS_MON_FRI);
+        return $this->getOption(PageThemeConfig::TITLES_HOME);
     }
 
-    public function getOpeningHoursMonday()
+    public function getTitleStart()
+{
+    return $this->getOption(PageThemeConfig::TITLES_START);
+}
+
+    public function getTitleProgramm()
     {
-        return $this->getOption(PageThemeConfig::OPENING_HOURS_MONDAY);
+        return $this->getOption(PageThemeConfig::TITLES_PROGRAMM);
     }
 
-    public function getOpeningHoursTuesday()
+    public function getTitleLectors()
     {
-        return $this->getOption(PageThemeConfig::OPENING_HOURS_TUESDAY);
+        return $this->getOption(PageThemeConfig::TITLES_LECTORS);
     }
 
-    public function getOpeningHoursWednesday()
+    public function getTitleFaq()
     {
-        return $this->getOption(PageThemeConfig::OPENING_HOURS_WEDNESDAY);
+        return $this->getOption(PageThemeConfig::TITLES_FAQ);
     }
 
-    public function getOpeningHoursThursday()
+    public function getTitleContactPerson()
     {
-        return $this->getOption(PageThemeConfig::OPENING_HOURS_THURSDAY);
+        return $this->getOption(PageThemeConfig::TITLES_CONTACT_PERSON);
     }
 
-    public function getOpeningHoursFriday()
+    public function getTitleApplication()
     {
-        return $this->getOption(PageThemeConfig::OPENING_HOURS_FRIDAY);
+        return $this->getOption(PageThemeConfig::TITLES_APPLICATION);
     }
 
-    public function getOpeningHoursSaturday()
+    //* --- Ostaní
+    //* --- Prefix: Other
+
+    public function getOtherNearestDate()
     {
-        return $this->getOption(PageThemeConfig::OPENING_HOURS_SATURDAY);
+        return $this->getOption(PageThemeConfig::OTHER_NEAREST_DATE);
     }
-
-    public function getOpeningHoursSunday()
-    {
-        return $this->getOption(PageThemeConfig::OPENING_HOURS_SUNDAY);
-    }
-
-    //* --- Analytika
-    //* --- Prefix: Analytics
-
-    public function getAnalyticsHeaderCode()
-    {
-        return $this->getOption(PageThemeConfig::ANALYTICS_HEADER_CODE);
-    }
-
-    public function getAnalyticsBodyCode()
-    {
-        return $this->getOption(PageThemeConfig::ANALYTICS_BODY_CODE);
-    }
-
 
     //? --- veřejné metody ------------------------------------------------------
 
-
-    //* --- Kontakt
-    //* --- Prefix: Contact
-
-    public function isContactCompanyName()
-    {
-        return Util::issetAndNotEmpty($this->getContactCompanyName());
-    }
-
-    public function isContactStreet()
-    {
-        return Util::issetAndNotEmpty($this->getContactStreet());
-    }
-
-    public function isContactCity()
-    {
-        return Util::issetAndNotEmpty($this->getContactCity());
-    }
-
-    public function isContactZip()
-    {
-        return Util::issetAndNotEmpty($this->getContactZip());
-    }
-
-    public function isContactPhone()
-    {
-        return Util::issetAndNotEmpty($this->getContactPhone());
-    }
-
-    public function isContactEmail()
-    {
-        return Util::issetAndNotEmpty($this->getContactEmail());
-    }
-
-    public function isContactDescription()
-    {
-        return Util::issetAndNotEmpty($this->getContactDescription());
-    }
-
-    public function isContactEstablishment()
-    {
-        return Util::issetAndNotEmpty($this->getContactEstablishment());
-    }
-
-    public function isContactDic()
-    {
-        return Util::issetAndNotEmpty($this->getContactDic());
-    }
-
-    public function isContactIco()
-    {
-        return Util::issetAndNotEmpty($this->getContactIco());
-    }
-
-    public function isContactLogoId()
-    {
-        return Util::issetAndNotEmpty($this->getContactLogoId());
-    }
-
-    public function isContactAdress()
-    {
-        return $this->isContactStreet() && $this->isContactCity() && $this->isContactZip();
-    }
-
-    //* --- Sociání sítě
-    //* --- Prefix: Social
-
-//    public function isSocialFacebook()
-//    {
-//        return Util::issetAndNotEmpty($this->getSocialFacebook());
-//    }
-//
-//    public function isSocialInstagram()
-//    {
-//        return Util::issetAndNotEmpty($this->getSocialInstagram());
-//    }
-//
-//    public function isSocialYouTube()
-//    {
-//        return Util::issetAndNotEmpty($this->getSocialYouTube());
-//    }
-
-//    public function isSocials()
-//    {
-//        if ($this->isSocialFacebook() || $this->isSocialInstagram() || $this->isSocialYouTube()) {
-//            return true;
-//        } else {
-//            return false;
-//        }
-//    }
-
-//    public function isSocialsSameAsData()
-//    {
-//        return Util::arrayIssetAndNotEmpty($this->getSocialsSameAsData());
-//    }
-
-    //* --- Otevírací doba
-    //* --- Prefix: OpeningHours
-
-    public function isOpeningHoursMonFri()
-    {
-        return Util::issetAndNotEmpty($this->getOpeningHoursMonFri());
-    }
-
-    public function isOpeningHoursMonday()
-    {
-        return Util::issetAndNotEmpty($this->getOpeningHoursMonday());
-    }
-
-    public function isOpeningHoursTuesday()
-    {
-        return Util::issetAndNotEmpty($this->getOpeningHoursTuesday());
-    }
-
-    public function isOpeningHoursWednesday()
-    {
-        return Util::issetAndNotEmpty($this->getOpeningHoursWednesday());
-    }
-
-    public function isOpeningHoursThursday()
-    {
-        return Util::issetAndNotEmpty($this->getOpeningHoursThursday());
-    }
-
-    public function isOpeningHoursFriday()
-    {
-        return Util::issetAndNotEmpty($this->getOpeningHoursFriday());
-    }
-
-    public function isOpeningHoursSaturday()
-    {
-        return Util::issetAndNotEmpty($this->getOpeningHoursSaturday());
-    }
-
-    public function isOpeningHoursSunday()
-    {
-        return Util::issetAndNotEmpty($this->getOpeningHoursSunday());
-    }
-
-    //* --- Analytika
-    //* --- Prefix: Analytics
-
-    public function isAnalyticsHeaderCode()
-    {
-        return Util::issetAndNotEmpty($this->getAnalyticsHeaderCode());
-    }
-
-    public function isAnalyticsBodyCode()
-    {
-        return Util::issetAndNotEmpty($this->getAnalyticsBodyCode());
-    }
 }
