@@ -118,42 +118,47 @@ class PageThemeModel extends \KT_WP_Options_Base_Model
     }
 
 
-    //* --- Sociání sítě
-    //* --- Prefix: Social
+    //* --- Kontaktní osoba
+    //* --- Prefix: ContactPerson
 
-    public function getSocialFacebook()
+    public function getContactPersonName()
     {
-        return $this->getOption(PageThemeConfig::SOCIAL_FACEBOOK);
+        return $this->getOption(PageThemeConfig::CONTACT_PERSON_NAME);
     }
 
-    public function getSocialInstagram()
+    public function getContactPersonPhone()
     {
-        return $this->getOption(PageThemeConfig::SOCIAL_INSTAGRAM);
+        return $this->getOption(PageThemeConfig::CONTACT_PERSON_PHONE);
     }
 
-    public function getSocialYouTube()
+    public function getContactPersonMail()
     {
-        return $this->getOption(PageThemeConfig::SOCIAL_YOUTUBE);
+        return $this->getOption(PageThemeConfig::CONTACT_PERSON_MAIL);
+    }
+
+    public function getContactPersonPhoto()
+    {
+        return $this->getOption(PageThemeConfig::CONTACT_PERSON_PHOTO);
     }
 
     /** @return array */
-    public function getSocialsSameAsData()
-    {
-        if (isset($this->SocialsSameAsData)) {
-            return $this->SocialsSameAsData;
-        }
-        $data = [];
-        if ($this->isSocialFacebook()) {
-            $data[] = sprintf("%s - social network profile (Facebook)", $this->getSocialFacebook());
-        }
-        if ($this->isSocialInstagram()) {
-            $data[] = sprintf("%s - social network profile (Instagram)", $this->getSocialInstagram());
-        }
-        if ($this->isSocialYoutube()) {
-            $data[] = sprintf("%s - social network profile (YouTube)", $this->getSocialYoutube());
-        }
-        return $this->SocialsSameAsData = $data;
-    }
+//    public function getSocialsSameAsData()
+//    {
+//        if (isset($this->SocialsSameAsData)) {
+//            return $this->SocialsSameAsData;
+//        }
+//        $data = [];
+//        if ($this->isSocialFacebook()) {
+//            $data[] = sprintf("%s - social network profile (Facebook)", $this->getSocialFacebook());
+//        }
+//        if ($this->isSocialInstagram()) {
+//            $data[] = sprintf("%s - social network profile (Instagram)", $this->getSocialInstagram());
+//        }
+//        if ($this->isSocialYoutube()) {
+//            $data[] = sprintf("%s - social network profile (YouTube)", $this->getSocialYoutube());
+//        }
+//        return $this->SocialsSameAsData = $data;
+//    }
 
     //* --- Otevírací doba
     //* --- Prefix: OpeningHours
@@ -281,34 +286,34 @@ class PageThemeModel extends \KT_WP_Options_Base_Model
     //* --- Sociání sítě
     //* --- Prefix: Social
 
-    public function isSocialFacebook()
-    {
-        return Util::issetAndNotEmpty($this->getSocialFacebook());
-    }
+//    public function isSocialFacebook()
+//    {
+//        return Util::issetAndNotEmpty($this->getSocialFacebook());
+//    }
+//
+//    public function isSocialInstagram()
+//    {
+//        return Util::issetAndNotEmpty($this->getSocialInstagram());
+//    }
+//
+//    public function isSocialYouTube()
+//    {
+//        return Util::issetAndNotEmpty($this->getSocialYouTube());
+//    }
 
-    public function isSocialInstagram()
-    {
-        return Util::issetAndNotEmpty($this->getSocialInstagram());
-    }
+//    public function isSocials()
+//    {
+//        if ($this->isSocialFacebook() || $this->isSocialInstagram() || $this->isSocialYouTube()) {
+//            return true;
+//        } else {
+//            return false;
+//        }
+//    }
 
-    public function isSocialYouTube()
-    {
-        return Util::issetAndNotEmpty($this->getSocialYouTube());
-    }
-
-    public function isSocials()
-    {
-        if ($this->isSocialFacebook() || $this->isSocialInstagram() || $this->isSocialYouTube()) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-    public function isSocialsSameAsData()
-    {
-        return Util::arrayIssetAndNotEmpty($this->getSocialsSameAsData());
-    }
+//    public function isSocialsSameAsData()
+//    {
+//        return Util::arrayIssetAndNotEmpty($this->getSocialsSameAsData());
+//    }
 
     //* --- Otevírací doba
     //* --- Prefix: OpeningHours

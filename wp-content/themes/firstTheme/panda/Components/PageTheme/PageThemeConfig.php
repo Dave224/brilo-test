@@ -19,7 +19,7 @@ class PageThemeConfig implements \KT_Configable
     public static function getAllNormalFieldsets()
     {
         return [
-            self::SOCIAL_FIELDSET => self::getSocialFieldset(),
+            self::CONTACT_PERSON_FIELDSET => self::getContactPersonFieldset(),
             self::CONTACT_FIELDSET => self::getContactFieldset(),
             self::OPENING_HOURS_FIELDSET => self::getOpeningHoursFieldset(),
             self::ANALYTICS_FIELDSET => self::getAnalyticsFieldset(),
@@ -31,26 +31,24 @@ class PageThemeConfig implements \KT_Configable
         return [];
     }
 
-    // --- SOCIÁLNÍ SÍTĚ ------------------------
+    // --- KONTAKTNÍ OSOBA ------------------------
 
-    const SOCIAL_FIELDSET = self::FORM_PREFIX . "-social";
-    const SOCIAL_FACEBOOK = self::SOCIAL_FIELDSET . "-facebook";
-    const SOCIAL_INSTAGRAM = self::SOCIAL_FIELDSET . "-instagram";
-    const SOCIAL_YOUTUBE = self::SOCIAL_FIELDSET . "-youtube";
+    const CONTACT_PERSON_FIELDSET = self::FORM_PREFIX . "-contact-person";
+    const CONTACT_PERSON_NAME = self::CONTACT_PERSON_FIELDSET . "-name";
+    const CONTACT_PERSON_PHONE = self::CONTACT_PERSON_FIELDSET . "-phone";
+    const CONTACT_PERSON_MAIL = self::CONTACT_PERSON_FIELDSET . "-email";
+    const CONTACT_PERSON_PHOTO = self::CONTACT_PERSON_FIELDSET . "-photo";
 
 
-    public static function getSocialFieldset()
+    public static function getContactPersonFieldset()
     {
-        $fieldset = new \KT_Form_Fieldset(self::SOCIAL_FIELDSET, __("Sociální sítě", "RLG_DOMAIN"));
-        $fieldset->setPostPrefix(self::SOCIAL_FIELDSET);
+        $fieldset = new \KT_Form_Fieldset(self::CONTACT_PERSON_FIELDSET, __("Kontaktní osoba", "RLG_DOMAIN"));
+        $fieldset->setPostPrefix(self::CONTACT_PERSON_FIELDSET);
 
-        $fieldset->addText(self::SOCIAL_FACEBOOK, __("Facebook:", "RLG_DOMAIN"))
-            ->setInputType(\KT_Text_Field::INPUT_URL);
-        $fieldset->addText(self::SOCIAL_INSTAGRAM, __("Instagram:", "RLG_DOMAIN"))
-            ->setInputType(\KT_Text_Field::INPUT_URL);
-        $fieldset->addText(self::SOCIAL_YOUTUBE, __("YouTube:", "RLG_DOMAIN"))
-            ->setInputType(\KT_Text_Field::INPUT_URL);
-
+        $fieldset->addText(self::CONTACT_PERSON_NAME, __("Jméno:", "RLG_DOMAIN"));
+        $fieldset->addText(self::CONTACT_PERSON_PHONE, __("Telefon:", "RLG_DOMAIN"));
+        $fieldset->addText(self::CONTACT_PERSON_MAIL, __("E-mail:", "RLG_DOMAIN"));
+        $fieldset->addMedia(self::CONTACT_PERSON_PHOTO, __("Foto:", "RLG_DOMAIN"));
         return $fieldset;
     }
 

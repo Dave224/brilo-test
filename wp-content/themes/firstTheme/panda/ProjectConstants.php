@@ -37,10 +37,6 @@ define("FOOTER_HEADER_SETTINGS_PAGE_SLUG", "appearance_page_footer-header-settin
 
 
 //? -- Preview size
-define("IMAGE_SIZE_1920xauto", "image-size-1920xauto");
+define("IMAGE_SIZE_192x192", "image-size-192x192");
 
 
-//? -- Employee
-// 150x150 Default WP Size
-//? retina
-define("IMAGE_SIZE_300x300", "image-size-300x300");
