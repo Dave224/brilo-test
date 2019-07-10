@@ -109,6 +109,11 @@ class ComposerStaticInit98a40f9035021e0ddc1d75a4929d2247
     );
 
     public static $classMap = array (
+        'Components\\AdvantegesQuery\\AdvantegesQuery' => __DIR__ . '/../..' . '/Components/AdvantegesQuery/AdvantegesQuery.php',
+        'Components\\AdvantegesQuery\\AdvantegesQueryFactory' => __DIR__ . '/../..' . '/Components/AdvantegesQuery/AdvantegesQueryFactory.php',
+        'Components\\Advanteges\\AdvantegesConfig' => __DIR__ . '/../..' . '/Components/Advanteges/AdvantegesConfig.php',
+        'Components\\Advanteges\\AdvantegesFactory' => __DIR__ . '/../..' . '/Components/Advanteges/AdvantegesFactory.php',
+        'Components\\Advanteges\\AdvantegesModel' => __DIR__ . '/../..' . '/Components/Advanteges/AdvantegesModel.php',
         'Components\\ContactForm\\ContactFormFactory' => __DIR__ . '/../..' . '/Components/ContactForm/ContactFormFactory.php',
         'Components\\ContactForm\\ContactFormPresenter' => __DIR__ . '/../..' . '/Components/ContactForm/ContactFormPresenter.php',
         'Components\\Employee\\EmployeeConfig' => __DIR__ . '/../..' . '/Components/Employee/EmployeeConfig.php',

@@ -6,7 +6,8 @@ RewriteBase /brilo-test/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /brilo-test/index.php [L]
+RewriteRule . /brilo-test/index.php
+
 </IfModule>
 
 # END WordPress

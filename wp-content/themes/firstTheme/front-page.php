@@ -1,10 +1,10 @@
 <?php
-use Components\SchemaGenerator\SchemaGenerator;
 
 get_template_part(COMPONENTS_PATH . "Header/Header");
 
+get_template_part(COMPONENTS_PATH . "PageTheme/Banner");
 
-SchemaGenerator::addOrganization();
+get_template_part(COMPONENTS_PATH . "Advanteges/Advanteges");
 
 get_template_part(COMPONENTS_PATH . "PageTheme/ContactPerson");
 

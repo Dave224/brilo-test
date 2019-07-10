@@ -6,6 +6,11 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Components\\AdvantegesQuery\\AdvantegesQuery' => $baseDir . '/Components/AdvantegesQuery/AdvantegesQuery.php',
+    'Components\\AdvantegesQuery\\AdvantegesQueryFactory' => $baseDir . '/Components/AdvantegesQuery/AdvantegesQueryFactory.php',
+    'Components\\Advanteges\\AdvantegesConfig' => $baseDir . '/Components/Advanteges/AdvantegesConfig.php',
+    'Components\\Advanteges\\AdvantegesFactory' => $baseDir . '/Components/Advanteges/AdvantegesFactory.php',
+    'Components\\Advanteges\\AdvantegesModel' => $baseDir . '/Components/Advanteges/AdvantegesModel.php',
     'Components\\ContactForm\\ContactFormFactory' => $baseDir . '/Components/ContactForm/ContactFormFactory.php',
     'Components\\ContactForm\\ContactFormPresenter' => $baseDir . '/Components/ContactForm/ContactFormPresenter.php',
     'Components\\Employee\\EmployeeConfig' => $baseDir . '/Components/Employee/EmployeeConfig.php',

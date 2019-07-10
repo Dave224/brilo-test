@@ -23,6 +23,7 @@ class PageThemeConfig implements \KT_Configable
             self::CONTACT_PERSON_FIELDSET => self::getContactPersonFieldset(),
             self::TITLES_FIELDSET => self::getTitlesFieldset(),
             self::OTHER_FIELDSET => self::getOtherFieldset(),
+            self::ANALYTICS_FIELDSET => self::getAnalyticsFieldset(),
         ];
     }
 
@@ -144,6 +145,26 @@ class PageThemeConfig implements \KT_Configable
         $fieldset->setPostPrefix(self::OTHER_FIELDSET);
 
         $fieldset->addText(self::OTHER_NEAREST_DATE, __("Nejbližší termín:", "RLG_DOMAIN"));
+        return $fieldset;
+    }
+
+    // --- ANALYTIKA ------------------------
+
+    const ANALYTICS_FIELDSET = self::FORM_PREFIX . "-analytics";
+    const ANALYTICS_HEADER_CODE = self::ANALYTICS_FIELDSET . "-header-code";
+    const ANALYTICS_BODY_CODE = self::ANALYTICS_FIELDSET . "-body-code";
+
+    public static function getAnalyticsFieldset()
+    {
+        $fieldset = new \KT_Form_Fieldset(self::ANALYTICS_FIELDSET, __("Analytika", "RLG_DOMAIN"));
+        $fieldset->setPostPrefix(self::ANALYTICS_FIELDSET);
+
+        $fieldset->addTextarea(self::ANALYTICS_HEADER_CODE, __("Kód v header:", "RLG_DOMAIN"))
+            ->setFilterSanitize(FILTER_DEFAULT);
+
+        $fieldset->addTextarea(self::ANALYTICS_BODY_CODE, __("Kód v body:", "RLG_DOMAIN"))
+            ->setFilterSanitize(FILTER_DEFAULT);
+
         return $fieldset;
     }
 }

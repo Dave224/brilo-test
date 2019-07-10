@@ -15,18 +15,21 @@ define("POST_KEY", "post");
 define("POST_LOOP", "Post");
 define("TIPS_LOOP", "Tip");
 
-//? Product
-define("PRODUCT_KEY", "product");
-define("PRODUCT_SLUG", "produkt");
-define("PRODUCT_LOOP", "Product");
+//? Advanteges
+define("ADVANTEGES_KEY", "advanteges");
+define("ADVANTEGES_SLUG", "výhody");
+define("ADVANTEGES_LOOP", "Advanteges");
+
+//? Products
+define("PRODUCT_KEY", "products");
+define("PRODUCT_SLUG", "produkty");
+define("PRODUCT_LOOP", "Products");
 
 //? Product terms
 define("PRODUCT_BRAND_KEY", "product-brand");
 define("PRODUCT_BRAND_SLUG", "vyrobce");
 define("PRODUCT_BRAND_LOOP", "ProductTermBrand");
 define("BRAND_LOOP", "BrandItem");
-
-
 
 //? Nastavení patičky a hlavičky
 define("FOOTER_HEADER_SETTINGS_PAGE", "footer-header-setting");

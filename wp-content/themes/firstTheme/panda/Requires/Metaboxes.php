@@ -2,13 +2,12 @@
 
 use Components\Page\PageConfig;
 use Components\Post\PostConfig;
-use Components\Product\ProductConfig;
+use Components\Advanteges\AdvantegesConfig;
 
 use Components\PageFront\PageFrontConfig;
 use Components\PageTheme\PageThemeConfig;
 
 use Components\FooterHeaderSettings\FooterHeaderSettingsConfig;
-use Components\ProductTermBrand\ProductTermBrandConfig;
 use Components\Employee\EmployeeConfig;
 use Components\PageContact\PageContactConfig;
 
@@ -63,13 +62,9 @@ registerMetabox(PageConfig::class, KT_WP_PAGE_KEY);
 registerMetabox(EmployeeConfig::class, EMPLOYEE_KEY);
 
 
-//* --- product ------------------------
+//* --- advanteges ------------------------
 
-registerMetabox(ProductConfig::class, PRODUCT_KEY);
-
-//* --- product term brand ------------------------
-
-KT_Term_MetaBox::createMultiple(ProductTermBrandConfig::getAllGenericFieldsets(), PRODUCT_BRAND_KEY);
+//registerMetabox(AdvantegesConfig::class, ADVANTEGES_KEY);
 
 
 //-------------------------------------------

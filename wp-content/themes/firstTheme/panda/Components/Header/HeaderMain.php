@@ -4,7 +4,7 @@ use Components\PageTheme\PageThemeFactory;
 $Theme = PageThemeFactory::create(); ?>
 
 <header class="main-header">
-	<a href="#" class="wp-logo"><img src="" data-src="images/ico/wp_logo.svg" alt="" /></a>
+	<a href="#" class="wp-logo"><img src="<?= get_template_directory_uri(); ?>/images/ico/wp_logo.svg" alt="" /></a>
 
 	<nav class="main-nav">
 		<div class="close-button">
@@ -24,7 +24,7 @@ $Theme = PageThemeFactory::create(); ?>
 	</nav>
 
 	<div class="closest-term">
-		<div class="closest-term__icon"><img src="<?= get_template_directory_uri(); ?>/images/ico/calendar.svg" data-src="<?= get_template_directory_uri(); ?>/images/ico/calendar.svg" alt="calendar" /></div>
+		<div class="closest-term__icon"><img src="<?= get_template_directory_uri(); ?>/images/ico/calendar.svg" alt="calendar" /></div>
 
 		<div class="closest-term__text">Nejbližší termín</div>
 
