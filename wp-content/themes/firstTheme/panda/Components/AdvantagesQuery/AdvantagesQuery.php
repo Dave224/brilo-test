@@ -1,12 +1,12 @@
 <?php
 
-namespace Components\EmployeesQuery;
+namespace Components\AdvantagesQuery;
 
 use Utils\Util;
 
-class EmployeesQuery extends \KT_Presenter_Base
+class AdvantagesQuery extends \KT_Presenter_Base
 {
-    const DEFAULT_COUNT = -1;
+    const DEFAULT_COUNT = 6;
 
     private $posts;
     private $postsCount;
@@ -58,13 +58,14 @@ class EmployeesQuery extends \KT_Presenter_Base
     public function thePosts()
     {
         if ($this->hasPosts()) {
-            self::itemsLoop($this->getPosts(), EMPLOYEE_LOOP);
+            self::itemsLoop($this->getPosts(), ADVANTAGES_LOOP);
         }
     }
 
     public function itemsLoop(array $items, $componentName)
     {
         $componentPath = locate_template(COMPONENTS_PATH . "$componentName/$componentName.php");
+
         if (Util::arrayIssetAndNotEmpty($items) && file_exists($componentPath)) {
             foreach ($items as $item) {
                 global $post;
@@ -82,7 +83,7 @@ class EmployeesQuery extends \KT_Presenter_Base
     private function initPosts()
     {
         $args = [
-            "post_type" => EMPLOYEE_KEY,
+            "post_type" => ADVANTAGES_KEY,
             "post_status" => "publish",
             "posts_per_page" => $this->getMaxCount(),
             "orderby" => "menu_order date",

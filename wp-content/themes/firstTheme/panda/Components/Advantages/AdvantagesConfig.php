@@ -1,10 +1,10 @@
 <?php
 
-namespace Components\Advanteges;
+namespace Components\Advantages;
 
-class AdvantegesConfig implements \KT_Configable
+class AdvantagesConfig implements \KT_Configable
 {
-    const FORM_PREFIX = "advanteges";
+    const FORM_PREFIX = "advantages";
 
     // --- fieldsety ---------------------------
 

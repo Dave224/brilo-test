@@ -1,16 +1,16 @@
 <?php
 
-namespace Components\Advanteges;
+namespace Components\Advantages;
 
 use Utils\Util;
 
-class AdvantegesModel extends \KT_WP_Post_Base_Model
+class AdvantagesModel extends \KT_WP_Post_Base_Model
 {
 
 
     function __construct(\WP_Post $post)
     {
-        parent::__construct($post, AdvantegesConfig::FORM_PREFIX);
+        parent::__construct($post, AdvantagesConfig::FORM_PREFIX);
 
     }
 
@@ -22,12 +22,12 @@ class AdvantegesModel extends \KT_WP_Post_Base_Model
 
 //    public function getParamsTitle()
 //    {
-//        return $this->getMetaValue(AdvantegesConfig::PARAMS_TITLE);
+//        return $this->getMetaValue(AdvantagesConfig::PARAMS_TITLE);
 //    }
 //
 //    public function getParamsOrder()
 //    {
-//        return $this->getMetaValue(AdvantegesConfig::PARAMS_ORDER);
+//        return $this->getMetaValue(AdvantagesConfig::PARAMS_ORDER);
 //    }
 
 }

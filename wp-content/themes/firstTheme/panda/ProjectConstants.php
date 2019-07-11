@@ -15,10 +15,10 @@ define("POST_KEY", "post");
 define("POST_LOOP", "Post");
 define("TIPS_LOOP", "Tip");
 
-//? Advanteges
-define("ADVANTEGES_KEY", "advanteges");
-define("ADVANTEGES_SLUG", "výhody");
-define("ADVANTEGES_LOOP", "Advanteges");
+//? Advantages
+define("ADVANTAGES_KEY", "advantages");
+define("ADVANTAGES_SLUG", "výhody");
+define("ADVANTAGES_LOOP", "Advantages");
 
 //? Products
 define("PRODUCT_KEY", "products");

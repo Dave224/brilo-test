@@ -2,13 +2,12 @@
 
 use Components\Page\PageConfig;
 use Components\Post\PostConfig;
-use Components\Advanteges\AdvantegesConfig;
+use Components\Advantages\AdvantagesConfig;
 
 use Components\PageFront\PageFrontConfig;
 use Components\PageTheme\PageThemeConfig;
 
 use Components\FooterHeaderSettings\FooterHeaderSettingsConfig;
-use Components\Employee\EmployeeConfig;
 use Components\PageContact\PageContactConfig;
 
 //* --- theme ------------------------
@@ -56,15 +55,6 @@ registerMetabox(PostConfig::class, POST_KEY);
 //* --- page ------------------------
 
 registerMetabox(PageConfig::class, KT_WP_PAGE_KEY);
-
-//* --- employee ------------------------
-
-registerMetabox(EmployeeConfig::class, EMPLOYEE_KEY);
-
-
-//* --- advanteges ------------------------
-
-//registerMetabox(AdvantegesConfig::class, ADVANTEGES_KEY);
 
 
 //-------------------------------------------
