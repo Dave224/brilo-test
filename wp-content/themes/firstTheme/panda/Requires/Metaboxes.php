@@ -2,7 +2,7 @@
 
 use Components\Page\PageConfig;
 use Components\Post\PostConfig;
-use Components\Advantages\AdvantagesConfig;
+use Components\Program\ProgramConfig;
 
 use Components\PageFront\PageFrontConfig;
 use Components\PageTheme\PageThemeConfig;
@@ -55,6 +55,10 @@ registerMetabox(PostConfig::class, POST_KEY);
 //* --- page ------------------------
 
 registerMetabox(PageConfig::class, KT_WP_PAGE_KEY);
+
+//* --- program ------------------------
+
+registerMetabox(ProgramConfig::class, PROGRAM_KEY);
 
 
 //-------------------------------------------

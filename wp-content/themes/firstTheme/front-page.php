@@ -8,7 +8,7 @@ get_template_part(COMPONENTS_PATH . "AdvantagesSection/AdvantagesSection");
 
 get_template_part(COMPONENTS_PATH . "PageTheme/Start");
 
-get_template_part(COMPONENTS_PATH . "PageTheme/Programm");
+get_template_part(COMPONENTS_PATH . "ProgramSection/ProgramSection");
 
 get_template_part(COMPONENTS_PATH . "PageTheme/Lectors");
 

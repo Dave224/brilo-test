@@ -2,40 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa7aec69-1d99-4b79-b2ef-94e999cbfdbf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/Advantages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/AdvantagesSection/AdvantagesSection.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advanteges/Advanteges.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Employee/Employee.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Employee/EmployeeConfig.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Employee/EmployeeDefinition.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Employee/EmployeeFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Employee/EmployeeModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/EmployeesQuery/EmployeesQuery.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/EmployeesQuery/EmployeesQueryFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Product/Product.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Product/ProductConfig.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Product/ProductDefinition.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Product/ProductFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Product/ProductModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Product/ProductPresenter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProductTerm/ProductTermQuery.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProductTermBrand/ProductTermBrandConfig.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProductTermBrand/ProductTermBrandDefinition.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProductTermBrand/ProductTermBrandModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProductTermBrand/ProductTermBrandQueryFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProductsQuery/ProductsQuery.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProductsQuery/ProductsQueryFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProductsRelatedQuery/ProductsRelatedQuery.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProductsRelatedQuery/ProductsRelatedQueryFactory.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advanteges/AdvantegesConfig.php" afterPath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/AdvantagesConfig.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advanteges/AdvantegesDefinition.php" afterPath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/AdvantagesDefinition.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advanteges/AdvantegesFactory.php" afterPath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/AdvantagesFactory.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advanteges/AdvantegesModel.php" afterPath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/AdvantagesModel.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/AdvantegesQuery/AdvantegesQuery.php" afterPath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/AdvantagesQuery/AdvantagesQuery.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/AdvantegesQuery/AdvantegesQueryFactory.php" afterPath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/AdvantagesQuery/AdvantagesQueryFactory.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/front-page.php" afterPath="$PROJECT_DIR$/wp-content/themes/firstTheme/front-page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/PageThemeConfig.php" afterPath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/PageThemeConfig.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/ProjectConstants.php" afterPath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/ProjectConstants.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Requires/Metaboxes.php" afterPath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Requires/Metaboxes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Vendor/composer/autoload_classmap.php" />
@@ -60,81 +28,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Advantages.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/Advantages.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdvantagesConfig.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/AdvantagesConfig.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Metaboxes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Requires/Metaboxes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="autoload_classmap.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Vendor/composer/autoload_classmap.php">
+      <file leaf-file-name="Program.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/Program.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="autoload_static.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Vendor/composer/autoload_static.php">
+      <file leaf-file-name="ProgramSection.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProgramSection/ProgramSection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="111" column="21" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
+            <state relative-caret-position="352">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="29" />
+              <folding>
+                <element signature="e#6#48#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProgramModel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/ProgramModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdvantagesDefinition.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/AdvantagesDefinition.php">
+      <file leaf-file-name="ProgramConfig.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/ProgramConfig.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="220">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+              <folding>
+                <element signature="e#38#60#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdvantagesModel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/AdvantagesModel.php">
+      <file leaf-file-name="ProgramQuery.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProgramQuery/ProgramQuery.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
+            <state relative-caret-position="-1474">
               <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdvantagesSection.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/AdvantagesSection/AdvantagesSection.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -143,8 +85,8 @@
       <file leaf-file-name="1.0_homepage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/1.0_homepage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="90" column="68" selection-start-line="89" selection-start-column="8" selection-end-line="90" selection-end-column="68" />
+            <state relative-caret-position="193">
+              <caret line="180" column="18" selection-start-line="180" selection-start-column="18" selection-end-line="180" selection-end-column="18" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -153,16 +95,6 @@
                 <element signature="n#div#4;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#5;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdvantagesQuery.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/AdvantagesQuery/AdvantagesQuery.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -182,12 +114,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-config-sample.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Header/Header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Header/HeaderHead.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/questions.txt" />
-        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/PageThemeModel.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/ThemeSetup.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Header/HeaderMain.php" />
@@ -209,22 +139,32 @@
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/Start.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/Form.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/Faq.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/PageThemeConfig.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/front-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advanteges/Advanteges.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/AdvantegesQuery/AdvantegesQuery.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/AdvantagesQuery/AdvantagesQueryFactory.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/AdvantagesFactory.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/AdvantagesModel.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Requires/Metaboxes.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Vendor/composer/autoload_classmap.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Vendor/composer/autoload_static.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/AdvantagesConfig.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/AdvantagesQuery/AdvantagesQuery.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/AdvantagesDefinition.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/ProjectConstants.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/Advantages.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/AdvantagesSection/AdvantagesSection.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/ProjectConstants.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/ProgramFactory.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/ProgramDefinition.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProgramQuery/ProgramQueryFactory.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/front-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Enums/ProgramEnum.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Requires/Metaboxes.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/ProgramConfig.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/PageThemeConfig.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/PageThemeModel.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/ProgramModel.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/Program.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProgramSection/ProgramSection.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProgramQuery/ProgramQuery.php" />
       </list>
     </option>
   </component>
@@ -416,6 +356,36 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Enums" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brilo-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brilo-test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstTheme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panda" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Components" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -450,7 +420,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AdvantagesSection" />
+              <option name="myItemId" value="ProgramQuery" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -484,7 +454,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AdvantagesQuery" />
+              <option name="myItemId" value="Program" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -518,7 +488,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Advantages" />
+              <option name="myItemId" value="PageTheme" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -534,17 +504,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../rolig/rolig" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="SearchEverywhereHistoryKey" value="home&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/1.0_homepage.html&#10;projec&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/ProjectConstants.php&#10;metabo&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Requires/Metaboxes.php&#10;meta&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Requires/Metaboxes.php&#10;aut&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Vendor/composer/autoload_real.php&#10;autolo&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Vendor/autoload.php&#10;header&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Components/Header/HeaderMain.php&#10;qu&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Components/PostsQuery/PostsQuery.php&#10;query&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Components/PostsQuery/PostsQueryFactory.php&#10;kt_wp_term&#9;null&#9;null&#10;themes.php&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-admin/themes.php" />
+    <property name="SearchEverywhereHistoryKey" value="program&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Components/ProgramQuery/ProgramQuery.php&#10;meta&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Requires/Metaboxes.php&#10;home&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/1.0_homepage.html&#10;projec&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/ProjectConstants.php&#10;metabo&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Requires/Metaboxes.php&#10;aut&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Vendor/composer/autoload_real.php&#10;autolo&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Vendor/autoload.php&#10;header&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Components/Header/HeaderMain.php&#10;qu&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Components/PostsQuery/PostsQuery.php&#10;query&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Components/PostsQuery/PostsQueryFactory.php&#10;kt_wp_term&#9;null&#9;null&#10;themes.php&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-admin/themes.php" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\brilo-test\wp-content\themes\firstTheme\panda\Components\PageTheme" />
-      <recent name="C:\xampp\htdocs\brilo-test\wp-content\themes\firstTheme\panda\Components" />
-      <recent name="C:\xampp\htdocs\brilo-test\wp-content\themes\firstTheme\panda\Components\Advanteges" />
-      <recent name="C:\xampp\htdocs\brilo-test\wp-content\themes\firstTheme" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\brilo-test\wp-content\themes\firstTheme\panda\Components\Advanteges" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\brilo-test\wp-content\themes\firstTheme\panda\Components" />
+      <recent name="C:\xampp\htdocs\brilo-test\wp-content\themes\firstTheme\panda\Components\PageTheme" />
+      <recent name="C:\xampp\htdocs\brilo-test\wp-content\themes\firstTheme\panda\Components\Advanteges" />
+      <recent name="C:\xampp\htdocs\brilo-test\wp-content\themes\firstTheme" />
     </key>
   </component>
   <component name="RunManager">
@@ -611,15 +581,15 @@
       <workItem from="1562692575881" duration="13988000" />
       <workItem from="1562740225074" duration="11436000" />
       <workItem from="1562764838317" duration="2450000" />
-      <workItem from="1562826452398" duration="3539000" />
+      <workItem from="1562826452398" duration="10071000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31413000" />
+    <option name="totallyTimeSpent" value="37945000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26100966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -676,79 +646,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-includes/theme.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="343" column="9" selection-start-line="343" selection-start-column="9" selection-end-line="343" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <marker date="1562742117705" expanded="true" signature="19:237" ph="&lt;IfModule mod_rewrite.c&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageFront/PageFrontModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/ContactPerson.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#21#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Header/HeaderMain.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="78" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/js/kt-functions.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/pages/page-contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Footer/Footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advanteges/Product.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Product/ProductPresenter.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Init.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -836,14 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/Programm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="110" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="110" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/Lectors.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -868,22 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/PageThemeConfig.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/AdvantagesQuery/AdvantagesQueryFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -892,81 +765,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/AdvantagesFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Requires/Metaboxes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/AdvantagesConfig.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/AdvantagesQuery/AdvantagesQuery.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/AdvantagesDefinition.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/ProjectConstants.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/1.0_homepage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="90" column="68" selection-start-line="89" selection-start-column="8" selection-end-line="90" selection-end-column="68" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/AdvantagesModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/Advantages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -987,10 +789,199 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/AdvantagesSection/AdvantagesSection.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/ProjectConstants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/AdvantagesConfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/AdvantagesDefinition.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="55" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/AdvantagesFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/AdvantagesModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/ProgramFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/ProgramDefinition.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/kt/core/enums/kt_metabox_data_type_enum.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/Programm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="23" column="17" selection-start-line="15" selection-start-column="12" selection-end-line="23" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProgramQuery/ProgramQueryFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/Advantages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/PageThemeConfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="159" column="31" selection-start-line="159" selection-start-column="31" selection-end-line="159" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Requires/Metaboxes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="60" column="49" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/1.0_homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="180" column="18" selection-start-line="180" selection-start-column="18" selection-end-line="180" selection-end-column="18" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Enums/ProgramEnum.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/PageThemeModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/AdvantagesSection/AdvantagesSection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/ProgramConfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#38#60#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/Program.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProgramSection/ProgramSection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#6#48#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/ProgramModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProgramQuery/ProgramQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1474">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>

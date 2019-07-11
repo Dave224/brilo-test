@@ -20,16 +20,11 @@ define("ADVANTAGES_KEY", "advantages");
 define("ADVANTAGES_SLUG", "výhody");
 define("ADVANTAGES_LOOP", "Advantages");
 
-//? Products
-define("PRODUCT_KEY", "products");
-define("PRODUCT_SLUG", "produkty");
-define("PRODUCT_LOOP", "Products");
+//? Program
+define("PROGRAM_KEY", "program");
+define("PROGRAM_SLUG", "program");
+define("PROGRAM_LOOP", "Program");
 
-//? Product terms
-define("PRODUCT_BRAND_KEY", "product-brand");
-define("PRODUCT_BRAND_SLUG", "vyrobce");
-define("PRODUCT_BRAND_LOOP", "ProductTermBrand");
-define("BRAND_LOOP", "BrandItem");
 
 //? Nastavení patičky a hlavičky
 define("FOOTER_HEADER_SETTINGS_PAGE", "footer-header-setting");
