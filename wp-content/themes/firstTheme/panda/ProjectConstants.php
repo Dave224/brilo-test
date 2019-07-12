@@ -25,6 +25,15 @@ define("PROGRAM_KEY", "program");
 define("PROGRAM_SLUG", "program");
 define("PROGRAM_LOOP", "Program");
 
+//? Faq
+define("FAQ_KEY", "faq");
+define("FAQ_SLUG", "faq");
+define("FAQ_LOOP", "Faq");
+
+//? Lecturer
+define("LECTURER_KEY", "lecturer");
+define("LECTURER_SLUG", "přednášející");
+define("LECTURER_LOOP", "Lecturer");
 
 //? Nastavení patičky a hlavičky
 define("FOOTER_HEADER_SETTINGS_PAGE", "footer-header-setting");

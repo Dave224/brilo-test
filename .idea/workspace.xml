@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa7aec69-1d99-4b79-b2ef-94e999cbfdbf" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/Faq.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/Programm.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/front-page.php" afterPath="$PROJECT_DIR$/wp-content/themes/firstTheme/front-page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/AdvantagesQuery/AdvantagesQuery.php" afterPath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/AdvantagesQuery/AdvantagesQuery.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/Program.php" afterPath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/Program.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/ProgramDefinition.php" afterPath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/ProgramDefinition.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProgramQuery/ProgramQuery.php" afterPath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProgramQuery/ProgramQuery.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/ProjectConstants.php" afterPath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/ProjectConstants.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Requires/Metaboxes.php" afterPath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Requires/Metaboxes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Vendor/composer/autoload_classmap.php" />
@@ -28,11 +34,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Program.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/Program.php">
+      <file leaf-file-name="LecturerSection.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/LecturerSection/LecturerSection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="36" />
+            <state relative-caret-position="330">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+              <folding>
+                <element signature="e#6#56#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lecturer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Lecturer/Lecturer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LecturerModel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Lecturer/LecturerModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="front-page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/front-page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -41,8 +79,8 @@
       <file leaf-file-name="ProgramSection.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProgramSection/ProgramSection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="550">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="41" />
               <folding>
                 <element signature="e#6#48#0#PHP" expanded="true" />
               </folding>
@@ -50,51 +88,32 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Lectors.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/Lectors.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="18" column="18" selection-start-line="11" selection-start-column="12" selection-end-line="18" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageThemeConfig.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/PageThemeConfig.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="806">
+              <caret line="159" column="31" selection-start-line="159" selection-start-column="31" selection-end-line="159" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ProgramModel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/ProgramModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+            <state relative-caret-position="396">
+              <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="22" selection-end-column="5" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProgramConfig.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/ProgramConfig.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-              <folding>
-                <element signature="e#38#60#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProgramQuery.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProgramQuery/ProgramQuery.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1474">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1.0_homepage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/1.0_homepage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="180" column="18" selection-start-line="180" selection-start-column="18" selection-end-line="180" selection-end-column="18" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#4;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#5;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -114,22 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Header/Header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Header/HeaderHead.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/questions.txt" />
-        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/ThemeSetup.php" />
-        <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Header/HeaderMain.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/ContactPerson.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/Advanteges.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/Banner.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Footer/Footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/js/kt-functions.min.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advanteges/AdvantegesPresenter.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advanteges/AdvantegesQuery.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/AdvantegesQuery/AdvantegesQueryFactory.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advanteges/AdvantegesDefinition.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advanteges/AdvantegesConfig.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advanteges/AdvantegesModel.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advanteges/AdvantegesFactory.php" />
@@ -147,24 +150,40 @@
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Vendor/composer/autoload_classmap.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Vendor/composer/autoload_static.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/AdvantagesConfig.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/AdvantagesQuery/AdvantagesQuery.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/AdvantagesDefinition.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/Advantages.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/AdvantagesSection/AdvantagesSection.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/ProjectConstants.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/ProgramFactory.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/ProgramDefinition.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProgramQuery/ProgramQueryFactory.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/front-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Enums/ProgramEnum.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Requires/Metaboxes.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/ProgramConfig.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/PageThemeConfig.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/PageThemeModel.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/ProgramModel.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/Program.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProgramSection/ProgramSection.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/AdvantagesQuery/AdvantagesQuery.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/FaqQuery/FaqQueryFactory.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/Program.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Faq/FaqModel.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Faq/FaqConfig.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Faq/FaqFactory.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Faq/Faq.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Faq/FaqDefinition.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/ProgramDefinition.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/FaqSection/FaqSection.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProgramQuery/ProgramQuery.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/FaqQuery/FaqQuery.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/ProjectConstants.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/LecturerQuery/LecturerQuery.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/LecturerQuery/LecturerQueryFactory.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Lecturer/LecturerFactory.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Lecturer/LecturerDefinition.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Requires/Metaboxes.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Lecturer/LecturerConfig.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/LecturerSection/LecturerSection.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/front-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Lecturer/LecturerModel.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Lecturer/Lecturer.php" />
       </list>
     </option>
   </component>
@@ -206,6 +225,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -420,6 +441,40 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="ProgramSection" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brilo-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brilo-test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstTheme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panda" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="ProgramQuery" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -492,10 +547,178 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brilo-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brilo-test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstTheme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panda" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LecturerSection" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brilo-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brilo-test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstTheme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panda" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lecturer" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brilo-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brilo-test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstTheme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panda" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FaqSection" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brilo-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brilo-test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstTheme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panda" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FaqQuery" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brilo-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brilo-test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstTheme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="panda" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Faq" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -504,17 +727,18 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../rolig/rolig" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="SearchEverywhereHistoryKey" value="program&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Components/ProgramQuery/ProgramQuery.php&#10;meta&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Requires/Metaboxes.php&#10;home&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/1.0_homepage.html&#10;projec&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/ProjectConstants.php&#10;metabo&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Requires/Metaboxes.php&#10;aut&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Vendor/composer/autoload_real.php&#10;autolo&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Vendor/autoload.php&#10;header&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Components/Header/HeaderMain.php&#10;qu&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Components/PostsQuery/PostsQuery.php&#10;query&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Components/PostsQuery/PostsQueryFactory.php&#10;kt_wp_term&#9;null&#9;null&#10;themes.php&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-admin/themes.php" />
+    <property name="SearchEverywhereHistoryKey" value="metabo&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Requires/Metaboxes.php&#10;program&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Components/ProgramSection/ProgramSection.php&#10;proje&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/ProjectConstants.php&#10;meta&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Requires/Metaboxes.php&#10;home&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/1.0_homepage.html&#10;projec&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/ProjectConstants.php&#10;aut&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Vendor/composer/autoload_real.php&#10;autolo&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Vendor/autoload.php&#10;header&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Components/Header/HeaderMain.php&#10;qu&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Components/PostsQuery/PostsQuery.php&#10;query&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-content/themes/firstTheme/panda/Components/PostsQuery/PostsQueryFactory.php&#10;kt_wp_term&#9;null&#9;null&#10;themes.php&#9;FILE&#9;file://C:/xampp/htdocs/brilo-test/wp-admin/themes.php" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\brilo-test\wp-content\themes\firstTheme\panda\Components\Lecturer" />
+      <recent name="C:\xampp\htdocs\brilo-test\wp-content\themes\firstTheme\panda\Components\LecturerQuery" />
+      <recent name="C:\xampp\htdocs\brilo-test\wp-content\themes\firstTheme\panda\Components\LecturerSection" />
+      <recent name="C:\xampp\htdocs\brilo-test\wp-content\themes\firstTheme\panda\Components\Faq" />
+      <recent name="C:\xampp\htdocs\brilo-test\wp-content\themes\firstTheme\panda\Components\FaqQuery" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\brilo-test\wp-content\themes\firstTheme\panda\Components\Advanteges" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\brilo-test\wp-content\themes\firstTheme\panda\Components" />
-      <recent name="C:\xampp\htdocs\brilo-test\wp-content\themes\firstTheme\panda\Components\PageTheme" />
-      <recent name="C:\xampp\htdocs\brilo-test\wp-content\themes\firstTheme\panda\Components\Advanteges" />
-      <recent name="C:\xampp\htdocs\brilo-test\wp-content\themes\firstTheme" />
     </key>
   </component>
   <component name="RunManager">
@@ -581,22 +805,22 @@
       <workItem from="1562692575881" duration="13988000" />
       <workItem from="1562740225074" duration="11436000" />
       <workItem from="1562764838317" duration="2450000" />
-      <workItem from="1562826452398" duration="10071000" />
+      <workItem from="1562826452398" duration="10250000" />
+      <workItem from="1562912702631" duration="4309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37945000" />
+    <option name="totallyTimeSpent" value="42433000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26100966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26476908" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -607,6 +831,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -646,61 +871,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/ThemeSetup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
-          <caret line="67" column="38" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Vendor/composer/autoload_real.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProductsQuery/ProductsQuery.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advanteges/AdvantegesQuery.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProductTerm/ProductTermQuery.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Employee/EmployeeDefinition.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Employee/EmployeeConfig.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/kt/core/models/kt_wp_post_base_model.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="250" column="20" selection-start-line="250" selection-start-column="20" selection-end-line="250" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/EmployeesQuery/EmployeesQuery.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advanteges/AdvantegesPresenter.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Employee/EmployeeModel.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Employee/EmployeeFactory.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Employee/Employee.php" />
-    <entry file="file://$PROJECT_DIR$/wp-includes/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="651" column="9" selection-start-line="651" selection-start-column="9" selection-end-line="651" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Product/Product.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Page/PageFactory.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -713,7 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -733,26 +902,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/Lectors.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="99" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="99" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/Form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="99" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="99" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/Faq.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -765,19 +918,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/AdvantagesQuery/AdvantagesQuery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Vendor/composer/autoload_static.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="111" column="21" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -785,15 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/ProjectConstants.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -801,14 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/AdvantagesDefinition.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="55" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -837,14 +964,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/ProgramDefinition.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/kt/core/enums/kt_metabox_data_type_enum.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -853,19 +972,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/Programm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="23" column="17" selection-start-line="15" selection-start-column="12" selection-end-line="23" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -885,27 +995,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/PageThemeConfig.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="159" column="31" selection-start-line="159" selection-start-column="31" selection-end-line="159" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Requires/Metaboxes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="60" column="49" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
-          <folding>
-            <element signature="e#7#38#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/1.0_homepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
+        <state relative-caret-position="3300">
           <caret line="180" column="18" selection-start-line="180" selection-start-column="18" selection-end-line="180" selection-end-column="18" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -934,6 +1026,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/ProgramConfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#38#60#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/AdvantagesQuery/AdvantagesQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1892">
+          <caret line="86" column="35" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/FaqQuery/FaqQueryFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/AdvantagesSection/AdvantagesSection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -942,47 +1060,227 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/ProgramConfig.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/Program.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
-            <element signature="e#38#60#0#PHP" expanded="true" />
+            <element signature="e#6#44#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/Program.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Faq/FaqFactory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="36" />
+        <state relative-caret-position="308">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProgramSection/ProgramSection.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Faq/FaqModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="e#6#48#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="528">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/ProgramModel.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Faq/FaqConfig.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+        <state relative-caret-position="858">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Faq/FaqDefinition.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/Faq.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/ProgramDefinition.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/FaqQuery/FaqQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProgramQuery/ProgramQuery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1474">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="176">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Faq/Faq.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/FaqSection/FaqSection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="e#6#46#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/ProjectConstants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/LecturerQuery/LecturerQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2002">
+          <caret line="91" column="33" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Advantages/AdvantagesDefinition.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Lecturer/LecturerFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/PageThemeConfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="159" column="31" selection-start-line="159" selection-start-column="31" selection-end-line="159" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Requires/Metaboxes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-756">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Lecturer/LecturerConfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Lecturer/LecturerDefinition.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/LecturerQuery/LecturerQueryFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Program/ProgramModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/ProgramSection/ProgramSection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="41" />
+          <folding>
+            <element signature="e#6#48#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/PageTheme/Lectors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="18" column="18" selection-start-line="11" selection-start-column="12" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Lecturer/LecturerModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/Lecturer/Lecturer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/firstTheme/panda/Components/LecturerSection/LecturerSection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="e#6#56#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

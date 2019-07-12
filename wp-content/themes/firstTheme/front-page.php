@@ -10,11 +10,11 @@ get_template_part(COMPONENTS_PATH . "PageTheme/Start");
 
 get_template_part(COMPONENTS_PATH . "ProgramSection/ProgramSection");
 
-get_template_part(COMPONENTS_PATH . "PageTheme/Lectors");
+get_template_part(COMPONENTS_PATH . "LecturerSection/LecturerSection");
 
 get_template_part(COMPONENTS_PATH . "PageTheme/Form");
 
-get_template_part(COMPONENTS_PATH . "PageTheme/Faq");
+get_template_part(COMPONENTS_PATH . "FaqSection/FaqSection");
 
 get_template_part(COMPONENTS_PATH . "PageTheme/ContactPerson");
 

@@ -3,6 +3,7 @@
 use Components\Page\PageConfig;
 use Components\Post\PostConfig;
 use Components\Program\ProgramConfig;
+use Components\Lecturer\LecturerConfig;
 
 use Components\PageFront\PageFrontConfig;
 use Components\PageTheme\PageThemeConfig;
@@ -60,6 +61,10 @@ registerMetabox(PageConfig::class, KT_WP_PAGE_KEY);
 
 registerMetabox(ProgramConfig::class, PROGRAM_KEY);
 
+
+//* --- lecturer ------------------------
+
+registerMetabox(LecturerConfig::class, LECTURER_KEY);
 
 //-------------------------------------------
 //* shortcut for registration basic metaboxes

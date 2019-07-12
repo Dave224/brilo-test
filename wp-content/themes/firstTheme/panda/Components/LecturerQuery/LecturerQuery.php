@@ -1,10 +1,10 @@
 <?php
 
-namespace Components\ProgramQuery;
+namespace Components\LecturerQuery;
 
 use Utils\Util;
 
-class ProgramQuery extends \KT_Presenter_Base
+class LecturerQuery extends \KT_Presenter_Base
 {
     const DEFAULT_COUNT = 15;
 
@@ -58,7 +58,7 @@ class ProgramQuery extends \KT_Presenter_Base
     public function thePosts()
     {
         if ($this->hasPosts()) {
-            self::itemsLoop($this->getPosts(), PROGRAM_LOOP);
+            self::itemsLoop($this->getPosts(), LECTURER_LOOP);
         }
     }
 
@@ -83,7 +83,7 @@ class ProgramQuery extends \KT_Presenter_Base
     private function initPosts()
     {
         $args = [
-            "post_type" => PROGRAM_KEY,
+            "post_type" => LECTURER_KEY,
             "post_status" => "draft",
             "posts_per_page" => $this->getMaxCount(),
             "orderby" => "menu_order date",

@@ -32,7 +32,7 @@ function register_program_post_type()
         "rewrite" => ["slug" => PROGRAM_SLUG, "with_front" => false],
         "has_archive" => false,
         "hierarchical" => false,
-        "menu_position" => 4,
+        "menu_position" => 6,
         "menu_icon" => "dashicons-calendar",
         "supports" => [
             KT_WP_POST_TYPE_SUPPORT_TITLE_KEY,

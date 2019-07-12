@@ -84,7 +84,7 @@ class AdvantagesQuery extends \KT_Presenter_Base
     {
         $args = [
             "post_type" => ADVANTAGES_KEY,
-            "post_status" => "publish",
+            "post_status" => "draft",
             "posts_per_page" => $this->getMaxCount(),
             "orderby" => "menu_order date",
             "order" => \KT_Repository::ORDER_ASC,
