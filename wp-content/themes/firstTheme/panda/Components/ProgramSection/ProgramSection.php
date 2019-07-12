@@ -16,14 +16,18 @@ $Program = ProgramQueryFactory::create();
             <header>
                 <h3 class="program-list-block__heading">Pro začátečníky</h3>
             </header>
-            <?= $Program->thePosts();?>
+            <ol class="program-list">
+                <?= $Program->theBegginersPosts();?>
+            </ol>
         </div>
 
         <div class="col-md-6 col-lg-5 program-list-block">
             <header>
                 <h3 class="program-list-block__heading">Pro pokročilé</h3>
             </header>
-            <?php $Program->thePosts();?>
+            <ol class="program-list">
+                <?php $Program->theAdvancedPosts();?>
+            </ol>
         </div>
     </div>
 </section>

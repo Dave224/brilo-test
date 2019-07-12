@@ -62,6 +62,20 @@ class ProgramQuery extends \KT_Presenter_Base
         }
     }
 
+    public function theBegginersPosts()
+    {
+        if ($this->hasPosts()) {
+            self::itemsBegginnersLoop($this->getPosts(), PROGRAM_LOOP);
+        }
+    }
+
+    public function theAdvancedPosts()
+    {
+        if ($this->hasPosts()) {
+            self::itemsAdvancedLoop($this->getPosts(), PROGRAM_LOOP);
+        }
+    }
+
     public function itemsLoop(array $items, $componentName)
     {
         $componentPath = locate_template(COMPONENTS_PATH . "$componentName/$componentName.php");
@@ -71,6 +85,40 @@ class ProgramQuery extends \KT_Presenter_Base
                 global $post;
                 $post = $item;
                 include($componentPath);
+            }
+            wp_reset_postdata();
+        }
+    }
+
+    public function itemsBegginnersLoop(array $items, $componentName)
+    {
+        $componentPath = locate_template(COMPONENTS_PATH . "$componentName/$componentName.php");
+
+        if (Util::arrayIssetAndNotEmpty($items) && file_exists($componentPath)) {
+            foreach ($items as $item) {
+                global $post;
+                $metaData = get_post_meta($item->ID);
+                if ($metaData['program-list'][0] == "Pro začátečníky"){
+                    $post = $item;
+                    include($componentPath);
+                }
+            }
+            wp_reset_postdata();
+        }
+    }
+
+    public function itemsAdvancedLoop(array $items, $componentName)
+    {
+        $componentPath = locate_template(COMPONENTS_PATH . "$componentName/$componentName.php");
+
+        if (Util::arrayIssetAndNotEmpty($items) && file_exists($componentPath)) {
+            foreach ($items as $item) {
+                global $post;
+                $metaData = get_post_meta($item->ID);
+                if ($metaData['program-list'][0] == "Pro pokročilé"){
+                    $post = $item;
+                    include($componentPath);
+                }
             }
             wp_reset_postdata();
         }
