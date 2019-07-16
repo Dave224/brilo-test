@@ -30,7 +30,6 @@ class KT_Contact_Form_Base_Config {
     public static function getFieldset($splittedName = false, $exactedPhone = true, $requiredPhone = true) {
         $fieldset = new KT_Form_Fieldset(self::FORM_PREFIX, __("Contact", "KT_CORE_DOMAIN"));
         $fieldset->setPostPrefix(self::FORM_PREFIX);
-
         if ($splittedName) {
             $fieldset->addText(self::FIRST_NAME, __("First name*:", "KT_CORE_DOMAIN"))
                     ->setPlaceholder(__("First name*", "KT_CORE_DOMAIN"))

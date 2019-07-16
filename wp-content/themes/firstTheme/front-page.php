@@ -12,7 +12,7 @@ get_template_part(COMPONENTS_PATH . "ProgramSection/ProgramSection");
 
 get_template_part(COMPONENTS_PATH . "LecturerSection/LecturerSection");
 
-get_template_part(COMPONENTS_PATH . "PageTheme/Form");
+get_template_part(COMPONENTS_PATH . "ContactFormSection/ContactFormSection");
 
 get_template_part(COMPONENTS_PATH . "FaqSection/FaqSection");
 

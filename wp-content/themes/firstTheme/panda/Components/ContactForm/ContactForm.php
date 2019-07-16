@@ -1,53 +1,66 @@
 <?php
 use Components\ContactForm\ContactFormFactory;
+use Components\ContactForm\ContactFormConfig;
 
 $FormPresenter = ContactFormFactory::create();
 $Form = $FormPresenter->getForm();
-$Form->addAttrClass("contact-form");
+$Form->addAttrClass("app-form contact-form");
 $fieldset = $FormPresenter->getFieldset();
 
 
-$NameField = $fieldset[KT_Contact_Form_Base_Config::NAME];
+$NameField = $fieldset[ContactFormConfig::NAME];
 
-$PhoneField = $fieldset[KT_Contact_Form_Base_Config::PHONE];
+$PhoneField = $fieldset[ContactFormConfig::PHONE];
 
-$EmailField = $fieldset[KT_Contact_Form_Base_Config::EMAIL];
+$EmailField = $fieldset[ContactFormConfig::EMAIL];
 
-$MessageField = $fieldset[KT_Contact_Form_Base_Config::MESSAGE]; ?>
+$MessageField = $fieldset[ContactFormConfig::MESSAGE];
+
+$ProgramField = $fieldset[ContactFormConfig::PROGRAM_LIST];
+?>
 
 <?= $Form->getFormHeader(); ?>
-<div class="contact-form-top">
-    <div>
-        <?= $NameField->getField(); ?>
+<div class="row bg-semitran mr-0 ml-0 pt-1 pt-lg-2 pb-1 mb-1">
+    <div class="col-md-6 mb-1">
+        <div class="input-wrap">
+            <?= $NameField->getField(); ?>
 
-        <span class="fake-placeholder"><?php _e("Jméno a příjmení*", "WPA_DOMAIN"); ?></span>
-        <span class="required-notice"><?php _e("Povinné", "WPA_DOMAIN"); ?></span>
+<!--            <span class="fake-placeholder">--><?php //_e("Jméno a Příjmení", "WPA_DOMAIN"); ?><!--</span>-->
+    <!--        <span class="required-notice">--><?php //_e("Jméno je povinná položka", "WPA_DOMAIN"); ?><!--</span>-->
+            <span class="focus-line"></span>
+        </div>
+
+        <div class="input-wrap">
+            <?= $EmailField->getField(); ?>
+
+<!--            <span class="fake-placeholder">--><?php //_e("Email*", "WPA_DOMAIN"); ?><!--</span>-->
+    <!--        <span class="required-notice">--><?php //_e("E-mail je povinná položka", "WPA_DOMAIN"); ?><!--</span>-->
+            <span class="focus-line"></span>
+        </div>
+
+        <div class="input-wrap">
+            <?= $PhoneField->getField(); ?>
+
+<!--            <span class="fake-placeholder">--><?php //_e("Telefon", "WPA_DOMAIN"); ?><!--</span>-->
+    <!--        <span class="required-notice">--><?php //_e("Povinné", "WPA_DOMAIN"); ?><!--</span>-->
+            <span class="focus-line"></span>
+        </div>
+        <?= $ProgramField->getField(); ?>
     </div>
-
-    <div>
-        <?= $PhoneField->getField(); ?>
-
-        <span class="fake-placeholder"><?php _e("Telefon*", "WPA_DOMAIN"); ?></span>
-        <span class="required-notice"><?php _e("Povinné", "WPA_DOMAIN"); ?></span>
-    </div>
-
-    <div>
-        <?= $EmailField->getField(); ?>
-
-        <span class="fake-placeholder"><?php _e("Email*", "WPA_DOMAIN"); ?></span>
-        <span class="required-notice"><?php _e("Povinné", "WPA_DOMAIN"); ?></span>
+    <div class="col-md-6 mb-0 mb-lg-1">
+        <div class="textarea-wrap">
+            <?= $MessageField->getField(); ?>
+        </div>
     </div>
 </div>
 
-<?= $MessageField->getField(); ?>
+    <div class="text-center mb-1"><?php _e("Odesláním souhlasím se", "WPA_DOMAIN"); ?> <a href="https://www.brilo.cz/gdpr/" target="_blank"><?php _e("zpracováním osobních údajů", "WPA_DOMAIN"); ?></a></div>
 
-<div class="contact-form-bottom">
-    <span class="consent-notice"><?php _e("Souhlasím se zpracováním", "WPA_DOMAIN"); ?> <a href="#"><?php _e("osobních údajů", "WPA_DOMAIN"); ?></a></span>
-
-    <span class="btn btn-paperplane submitButton">
-        <span><?php _e("Odeslat dotaz", "WPA_DOMAIN"); ?></span>
-    </span>
-</div>
+    <div class="btn-container text-center mb-1">
+        <div class="btn btn--primary btn--big submitButton">
+            <?php _e("Odeslat nezávaznou přihlášku", "WPA_DOMAIN"); ?>
+        </div>
+    </div>
 
 <div class="d-none">
     <?= $fieldset[KT_Contact_Form_Base_Config::FAVOURITE]->getControlHtml(); ?>

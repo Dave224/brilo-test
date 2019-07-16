@@ -18,11 +18,10 @@ class ContactFormPresenter extends \KT_Contact_Form_Base_Presenter
     protected function processMail(array $values)
     {
         if (count($values) > 0) {
-            $name = htmlspecialchars(Util::arrayTryGetValue($values, \KT_Contact_Form_Base_Config::NAME));
-            $email = htmlspecialchars(Util::arrayTryGetValue($values, \KT_Contact_Form_Base_Config::EMAIL));
-            $phone = htmlspecialchars(Util::arrayTryGetValue($values, \KT_Contact_Form_Base_Config::PHONE));
-            $message = htmlspecialchars(Util::arrayTryGetValue($values, \KT_Contact_Form_Base_Config::MESSAGE));
-
+            $name = htmlspecialchars(Util::arrayTryGetValue($values, ContactFormConfig::NAME));
+            $email = htmlspecialchars(Util::arrayTryGetValue($values, ContactFormConfig::EMAIL));
+            $phone = htmlspecialchars(Util::arrayTryGetValue($values, ContactFormConfig::PHONE));
+            $message = htmlspecialchars(Util::arrayTryGetValue($values, ContactFormConfig::MESSAGE));
 
             if (Util::issetAndNotEmpty($name) && Util::issetAndNotEmpty($email) && is_email($email)) {
                 $ktWpInfo = new \KT_WP_Info();
@@ -62,5 +61,12 @@ class ContactFormPresenter extends \KT_Contact_Form_Base_Presenter
         $form->setAction(Util::getRequestUrl());
         $form->setAttrId("contact-form");
         return $form;
+    }
+
+    protected function initFieldset()
+    {
+        /* @var $form KT_Fieldset */
+        $fieldset = ContactFormConfig::getFieldset();
+        return $this->fieldset = $fieldset;
     }
 }
