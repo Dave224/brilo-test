@@ -5,7 +5,7 @@ $ThemeSettings = PageThemeFactory::create();?>
 <section id="app-form-section" class="app-form-section pt-2 pt-lg-3 pb-2">
 	<div class="container">
 		<header class="mb-2 mb-lg-3">
-			<h2 class="base-heading text-white"><?php echo $ThemeSettings->getTitleApplication();?></h2>
+			<h2 class="base-heading text-white"><?= $ThemeSettings->getTitleApplication();?></h2>
 		</header>
 
 		<div class="row justify-content-center text-white">
@@ -13,26 +13,26 @@ $ThemeSettings = PageThemeFactory::create();?>
 				<div class="row mb-1 text-center">
 					<div class="col-md-6 mb-1">
 						<div id="app-form-box--beginner" class="bg-semitran pt-2 pt-sm-1 pb-1 app-form-box">
-							<h3 class="app-form-box__heading"><?php echo $ThemeSettings->getStartBeginnersTitle();?></h3>
-							<div class="price"><?php echo $ThemeSettings->getStartBeginnersPrice();?> Kč</div>
-							<div class="note">Maximální počet účastníků: <?php echo $ThemeSettings->getStartBeginnersMaxCandidate();?></div>
+							<h3 class="app-form-box__heading"><?= $ThemeSettings->getStartBeginnersTitle();?></h3>
+							<div class="price"><?= $ThemeSettings->getStartBeginnersPrice();?> Kč</div>
+							<div class="note">Maximální počet účastníků: <?= $ThemeSettings->getStartBeginnersMaxCandidate();?></div>
 
 							<div class="tag-capacity tag-capacity--left">
 								<div class="tag-capacity__icon"><img src="<?= get_template_directory_uri(); ?>/images/ico/user.svg" alt="" /></div>
-								<div><?php echo $ThemeSettings->getStartBeginnersActualCandidate();?> / <?php echo $ThemeSettings->getStartBeginnersMaxCandidate();?></div>
+								<div><?= $ThemeSettings->getStartBeginnersActualCandidate();?> / <?= $ThemeSettings->getStartBeginnersMaxCandidate();?></div>
 							</div>
 						</div>
 					</div>
 
 					<div class="col-md-6 mb-1">
 						<div id="app-form-box--pro" class="bg-semitran pt-2 pt-sm-1 pb-1 app-form-box">
-							<h3 class="app-form-box__heading"><?php echo $ThemeSettings->getStartAdvancedTitle();?></h3>
-							<div class="price"><?php echo $ThemeSettings->getStartAdvancedPrice();?> Kč</div>
-							<div class="note">Maximální počet účastníků: <?php echo $ThemeSettings->getStartAdvancedMaxCandidate();?></div>
+							<h3 class="app-form-box__heading"><?= $ThemeSettings->getStartAdvancedTitle();?></h3>
+							<div class="price"><?= $ThemeSettings->getStartAdvancedPrice();?> Kč</div>
+							<div class="note">Maximální počet účastníků: <?= $ThemeSettings->getStartAdvancedMaxCandidate();?></div>
 
 							<div class="tag-capacity tag-capacity--right">
 								<div class="tag-capacity__icon"><img src="<?= get_template_directory_uri(); ?>/images/ico/user.svg" alt="" /></div>
-								<div><?php echo $ThemeSettings->getStartAdvancedActualCandidate();?> / <?php echo $ThemeSettings->getStartAdvancedMaxCandidate();?></div>
+								<div><?= $ThemeSettings->getStartAdvancedActualCandidate();?> / <?= $ThemeSettings->getStartAdvancedMaxCandidate();?></div>
 							</div>
 						</div>
 					</div>

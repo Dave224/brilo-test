@@ -6,7 +6,6 @@
         Copyright © <?= date("Y"); ?> WordPress academy powered by <a href="https://www.brilo.cz/" target="_blank">Brilo</a>
 </footer>
 
-<script type="text/javascript" src="<?= get_template_directory_uri(); ?>/js/kt-functions.min.js"></script>
 <?php
 wp_footer();
 SchemaGenerator::render(); ?>

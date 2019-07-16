@@ -36,12 +36,12 @@ $config->setImagesLazyLoading(true)
 // --- styly ---------------------------
 
 $config->assetsConfigurator()->addStyle("theme-style", get_template_directory_uri() . "/style.css")
-    ->setVersion(20190110)
+    ->setVersion(20190111)
     ->setEnqueue();
 
 
 $config->assetsConfigurator()
-    ->addStyle("google-font", "https://fonts.googleapis.com/css?family=Cabin:400,700|Hind:400,700&display=swap&subset=latin-ext")
+    ->addStyle("google-font", "https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext")
     ->setEnqueue();
 
 // --- scripty ------------------------------
@@ -56,8 +56,8 @@ $config->assetsConfigurator()
 
 // --- menu ---------------------------
 
-$config->addWpMenu(NAVIGATION_MAIN_MENU, __("Menu v hlavičce", "RLG_DOMAIN"));
-$config->addWpMenu(NAVIGATION_FOOTER_MENU, __("Menu v patičce", "RLG_DOMAIN"));
+$config->addWpMenu(NAVIGATION_MAIN_MENU, __("Menu v hlavičce", "WPA_DOMAIN"));
+$config->addWpMenu(NAVIGATION_FOOTER_MENU, __("Menu v patičce", "WPA_DOMAIN"));
 
 
 // --- sidebars ------------------------------
@@ -107,7 +107,3 @@ function fancybox_method_enque_script_callback()
     }
 }
 
-// --- Podstránka Nastavení hlavičky a patičky
-
-$headerFooterSubpage = new KT_Custom_Metaboxes_Subpage("themes.php", __("Hlavička a patička", "KT_CORE_DOMAIN"), __("Hlavička a patička", "KT_CORE_DOMAIN"), "update_core", FOOTER_HEADER_SETTINGS_PAGE);
-$headerFooterSubpage->setRenderSaveButton()->register();

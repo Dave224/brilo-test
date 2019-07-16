@@ -1,3 +1,2 @@
 get_title() - odkud to bere ten title????
-nezobrazuje se obrázek
 nastavení rozměrů obrázků

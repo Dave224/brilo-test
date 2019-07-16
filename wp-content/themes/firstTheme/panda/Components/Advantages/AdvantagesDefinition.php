@@ -7,18 +7,18 @@ function register_advantages_post_type()
     // --- post type ------------------------
 
     $labels = [
-        "name" => __("Výhody", "RLG_DOMAIN"),
-        "singular_name" => __("Výhoda", "RLG_DOMAIN"),
-        "add_new" => __("Přidat výhodu", "RLG_DOMAIN"),
-        "add_new_item" => __("Přidat novou výhodu", "RLG_DOMAIN"),
-        "edit_item" => __("Změnit výhodu", "RLG_DOMAIN"),
-        "new_item" => __("Nový výhoda", "RLG_DOMAIN"),
-        "view_item" => __("Zobrazit výhodu", "RLG_DOMAIN"),
-        "all_items" => __("Všechny výhody", "RLG_DOMAIN"),
-        "search_items" => __("Hledat výhodu", "RLG_DOMAIN"),
-        "not_found" => __("Žádné výhody nenalezeny", "RLG_DOMAIN"),
-        "not_found_in_trash" => __("Žádné výhody v koši", "RLG_DOMAIN"),
-        "menu_name" => __("Výhody", "RLG_DOMAIN"),
+        "name" => __("Výhody", "WPA_DOMAIN"),
+        "singular_name" => __("Výhoda", "WPA_DOMAIN"),
+        "add_new" => __("Přidat výhodu", "WPA_DOMAIN"),
+        "add_new_item" => __("Přidat novou výhodu", "WPA_DOMAIN"),
+        "edit_item" => __("Změnit výhodu", "WPA_DOMAIN"),
+        "new_item" => __("Nový výhoda", "WPA_DOMAIN"),
+        "view_item" => __("Zobrazit výhodu", "WPA_DOMAIN"),
+        "all_items" => __("Všechny výhody", "WPA_DOMAIN"),
+        "search_items" => __("Hledat výhodu", "WPA_DOMAIN"),
+        "not_found" => __("Žádné výhody nenalezeny", "WPA_DOMAIN"),
+        "not_found_in_trash" => __("Žádné výhody v koši", "WPA_DOMAIN"),
+        "menu_name" => __("Výhody", "WPA_DOMAIN"),
     ];
 
     $args = [
@@ -51,7 +51,7 @@ function register_advantages_post_type()
 if (is_admin()) { // vlastní sloupce v administraci
 //    $AdvantagesColumns = new KT_Admin_Columns(ADVANTAGES_KEY);
 //    $AdvantagesColumns->addColumn("menu_order", [
-//        KT_Admin_Columns::LABEL_PARAM_KEY => __("Pořadí", "RLG_DOMAIN"),
+//        KT_Admin_Columns::LABEL_PARAM_KEY => __("Pořadí", "WPA_DOMAIN"),
 //        KT_Admin_Columns::TYPE_PARAM_KEY => KT_Admin_Columns::POST_PROPERTY_TYPE_KEY,
 //        KT_Admin_Columns::PROPERTY_PARAM_KEY => "menu_order",
 //        KT_Admin_Columns::SORTABLE_PARAM_KEY => true,

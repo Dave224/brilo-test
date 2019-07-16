@@ -4,7 +4,7 @@
 
 
         <span class="footer-scroll-top" data-kt-target="main">
-            <span><?php _e("Nahoru", "RLG_DOMAIN"); ?></span>
+            <span><?php _e("Nahoru", "WPA_DOMAIN"); ?></span>
             <img src="" data-src="<?= get_template_directory_uri(); ?>/images/ico/circle-arrow-bottom.svg" alt="">
         </span>
     </div>

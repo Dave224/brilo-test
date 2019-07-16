@@ -20,32 +20,32 @@ $MessageField = $fieldset[KT_Contact_Form_Base_Config::MESSAGE]; ?>
     <div>
         <?= $NameField->getField(); ?>
 
-        <span class="fake-placeholder"><?php _e("Jméno a příjmení*", "RLG_DOMAIN"); ?></span>
-        <span class="required-notice"><?php _e("Povinné", "RLG_DOMAIN"); ?></span>
+        <span class="fake-placeholder"><?php _e("Jméno a příjmení*", "WPA_DOMAIN"); ?></span>
+        <span class="required-notice"><?php _e("Povinné", "WPA_DOMAIN"); ?></span>
     </div>
 
     <div>
         <?= $PhoneField->getField(); ?>
 
-        <span class="fake-placeholder"><?php _e("Telefon*", "RLG_DOMAIN"); ?></span>
-        <span class="required-notice"><?php _e("Povinné", "RLG_DOMAIN"); ?></span>
+        <span class="fake-placeholder"><?php _e("Telefon*", "WPA_DOMAIN"); ?></span>
+        <span class="required-notice"><?php _e("Povinné", "WPA_DOMAIN"); ?></span>
     </div>
 
     <div>
         <?= $EmailField->getField(); ?>
 
-        <span class="fake-placeholder"><?php _e("Email*", "RLG_DOMAIN"); ?></span>
-        <span class="required-notice"><?php _e("Povinné", "RLG_DOMAIN"); ?></span>
+        <span class="fake-placeholder"><?php _e("Email*", "WPA_DOMAIN"); ?></span>
+        <span class="required-notice"><?php _e("Povinné", "WPA_DOMAIN"); ?></span>
     </div>
 </div>
 
 <?= $MessageField->getField(); ?>
 
 <div class="contact-form-bottom">
-    <span class="consent-notice"><?php _e("Souhlasím se zpracováním", "RLG_DOMAIN"); ?> <a href="#"><?php _e("osobních údajů", "RLG_DOMAIN"); ?></a></span>
+    <span class="consent-notice"><?php _e("Souhlasím se zpracováním", "WPA_DOMAIN"); ?> <a href="#"><?php _e("osobních údajů", "WPA_DOMAIN"); ?></a></span>
 
     <span class="btn btn-paperplane submitButton">
-        <span><?php _e("Odeslat dotaz", "RLG_DOMAIN"); ?></span>
+        <span><?php _e("Odeslat dotaz", "WPA_DOMAIN"); ?></span>
     </span>
 </div>
 

@@ -4,7 +4,7 @@ $ThemeSettings = PageThemeFactory::create();?>
 
         <div class="intro-banner">
 			<header>
-				<h1 class="d-none"><?php echo $ThemeSettings->getTitleHome();?></h1>
+				<h1 class="d-none"><?= $ThemeSettings->getTitleHome();?></h1>
 				<div class="wpp">Wordpress</div>
 				<div class="aca">Academy</div>
 				<span>Powered by brilo</span>

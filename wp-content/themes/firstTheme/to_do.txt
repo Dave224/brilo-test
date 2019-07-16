@@ -1,0 +1,9 @@
+Linkování stylu, fontu, scriptu do themesetup - DONE
+Předělat banner, contactPerson udělat sekce - DONE
+Metaboxy, konstanty ke komponentám - DONE
+Preklady : php _e("Prihláška", "WPA_DOMAIN") - DONE
+Echo nahradit za rovná se - DONE
+Query u programu
+Form
+Promazat co není potřeba - DONE
+Ošetřit vstupy ify, zda je vyplněno pole v adminu

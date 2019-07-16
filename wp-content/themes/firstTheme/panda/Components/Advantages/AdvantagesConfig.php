@@ -34,11 +34,11 @@ class AdvantagesConfig implements \KT_Configable
 //
 //    public static function getParamsFieldset()
 //    {
-//        $fieldset = new \KT_Form_Fieldset(self::PARAMS_FIELDSET, __("Hlavní parametry", "RLG_DOMAIN"));
+//        $fieldset = new \KT_Form_Fieldset(self::PARAMS_FIELDSET, __("Hlavní parametry", "WPA_DOMAIN"));
 //        $fieldset->setPostPrefix(self::PARAMS_FIELDSET);
 //
-//        $fieldset->addText(self::PARAMS_TITLE, __("Titulek:", "RLG_DOMAIN"));
-//        $fieldset->addNumeric(self::PARAMS_ORDER, __("Pořadí:", "RLG_DOMAIN"));
+//        $fieldset->addText(self::PARAMS_TITLE, __("Titulek:", "WPA_DOMAIN"));
+//        $fieldset->addNumeric(self::PARAMS_ORDER, __("Pořadí:", "WPA_DOMAIN"));
 //
 //        return $fieldset;
 //    }

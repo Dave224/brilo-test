@@ -13,8 +13,8 @@ final class ProgramEnum extends \KT_Enum
         parent::__construct($value ?: self::NONE);
         $translates = [];
         $translates[self::NONE] = KT_EMPTY_SYMBOL;
-        $translates[self::BEGINNERS] = __("Pro začátečníky", "RLG_DOMAIN");
-        $translates[self::ADVANCED] = __("Pro pokročilé", "RLG_DOMAIN");
+        $translates[self::BEGINNERS] = __("Pro začátečníky", "WPA_DOMAIN");
+        $translates[self::ADVANCED] = __("Pro pokročilé", "WPA_DOMAIN");
 
         $this->setTranslates($translates);
     }

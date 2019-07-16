@@ -6,7 +6,7 @@ $Theme = PageThemeFactory::create(); ?>
 
 <?php if ($Theme->isSocials()) : ?>
 <div class="footer-social">
-	<span><?php _e("Sledujte nás", "RLG_DOMAIN"); ?></span>
+	<span><?php _e("Sledujte nás", "WPA_DOMAIN"); ?></span>
 
 	<div>
 

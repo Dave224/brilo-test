@@ -34,7 +34,7 @@ class ProgramConfig implements \KT_Configable
     const PARAMS_FIELDSET = self::FORM_PREFIX . "-program";
     public static function getParamsFieldset()
     {
-        $fieldset = new \KT_Form_Fieldset(self::PARAMS_FIELDSET, __("Zařázení", "RLG_DOMAIN"));
+        $fieldset = new \KT_Form_Fieldset(self::PARAMS_FIELDSET, __("Zařázení", "WPA_DOMAIN"));
         $fieldset->setPostPrefix(self::PARAMS_FIELDSET);
 
         $ProgramTypes = new ProgramEnum();

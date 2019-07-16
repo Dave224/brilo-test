@@ -38,7 +38,7 @@ $Theme = PageThemeFactory::create(); ?>
 				<span class="footer-contacts-link">
 					<a href="<?= $Theme->getImportantPagesContactLink(); ?>">
 
-						<span><?php _e("Všechny kontakty", "RLG_DOMAIN"); ?></span>
+						<span><?php _e("Všechny kontakty", "WPA_DOMAIN"); ?></span>
 
 						<img src="" data-src="<?= get_template_directory_uri(); ?>/images/ico/arrow-right-primary.svg" alt="">
 
@@ -74,7 +74,7 @@ $Theme = PageThemeFactory::create(); ?>
 
 					</p>
 
-					<p><?php _e("Jsme splátci DPH.", "RLG_DOMAIN"); ?></p>
+					<p><?php _e("Jsme splátci DPH.", "WPA_DOMAIN"); ?></p>
 
 				</div>
 			</div>
@@ -100,7 +100,7 @@ $Theme = PageThemeFactory::create(); ?>
 				<img src="" data-src="<?= get_template_directory_uri(); ?>/images/ico/rolig-logo.svg" alt="rolig logo">
 			</a>
 
-			<span><?php _e("Neprodáváme kamna. Měníme zimu v teplo domova.", "RLG_DOMAIN"); ?></span>
+			<span><?php _e("Neprodáváme kamna. Měníme zimu v teplo domova.", "WPA_DOMAIN"); ?></span>
 		</div>
 
 	</div>

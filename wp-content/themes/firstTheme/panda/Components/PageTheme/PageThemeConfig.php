@@ -23,7 +23,7 @@ class PageThemeConfig implements \KT_Configable
             self::CONTACT_PERSON_FIELDSET => self::getContactPersonFieldset(),
             self::TITLES_FIELDSET => self::getTitlesFieldset(),
             self::OTHER_FIELDSET => self::getOtherFieldset(),
-//            self::ANALYTICS_FIELDSET => self::getAnalyticsFieldset(),
+            self::ANALYTICS_FIELDSET => self::getAnalyticsFieldset(),
         ];
     }
 
@@ -46,16 +46,16 @@ class PageThemeConfig implements \KT_Configable
 
     public static function getStartBeginnersFieldset()
     {
-        $fieldset = new \KT_Form_Fieldset(self::START_BEGINNERS_FIELDSET, __("Kdy začínáme - začátečníci", "RLG_DOMAIN"));
+        $fieldset = new \KT_Form_Fieldset(self::START_BEGINNERS_FIELDSET, __("Kdy začínáme - začátečníci", "WPA_DOMAIN"));
         $fieldset->setPostPrefix(self::START_BEGINNERS_FIELDSET);
 
-        $fieldset->addText(self::START_BEGINNERS_TITLE, __("Titulek:", "RLG_DOMAIN"));
-        $fieldset->addText(self::START_BEGINNERS_DATE, __("Datum:", "RLG_DOMAIN"));
-        $fieldset->addText(self::START_BEGINNERS_PLACE, __("Místo:", "RLG_DOMAIN"));
-        $fieldset->addText(self::START_BEGINNERS_ADDRESS, __("Adresa:", "RLG_DOMAIN"));
-        $fieldset->addNumeric(self::START_BEGINNERS_MAX_CANDIDATE, __("Maximální počet uchazečů:", "RLG_DOMAIN"));
-        $fieldset->addNumeric(self::START_BEGINNERS_ACTUAL_CANDIDATE, __("Aktuální počet uchazečů:", "RLG_DOMAIN"));
-        $fieldset->addNumeric(self::START_BEGINNERS_PRICE, __("Cena:", "RLG_DOMAIN"));
+        $fieldset->addText(self::START_BEGINNERS_TITLE, __("Titulek:", "WPA_DOMAIN"));
+        $fieldset->addText(self::START_BEGINNERS_DATE, __("Datum:", "WPA_DOMAIN"));
+        $fieldset->addText(self::START_BEGINNERS_PLACE, __("Místo:", "WPA_DOMAIN"));
+        $fieldset->addText(self::START_BEGINNERS_ADDRESS, __("Adresa:", "WPA_DOMAIN"));
+        $fieldset->addNumeric(self::START_BEGINNERS_MAX_CANDIDATE, __("Maximální počet uchazečů:", "WPA_DOMAIN"));
+        $fieldset->addNumeric(self::START_BEGINNERS_ACTUAL_CANDIDATE, __("Aktuální počet uchazečů:", "WPA_DOMAIN"));
+        $fieldset->addNumeric(self::START_BEGINNERS_PRICE, __("Cena:", "WPA_DOMAIN"));
         return $fieldset;
     }
 
@@ -73,16 +73,16 @@ class PageThemeConfig implements \KT_Configable
 
     public static function getStartAdvancedFieldset()
     {
-        $fieldset = new \KT_Form_Fieldset(self::START_ADVANCED_FIELDSET, __("Kdy začínáme - pokročilý", "RLG_DOMAIN"));
+        $fieldset = new \KT_Form_Fieldset(self::START_ADVANCED_FIELDSET, __("Kdy začínáme - pokročilý", "WPA_DOMAIN"));
         $fieldset->setPostPrefix(self::START_ADVANCED_FIELDSET);
 
-        $fieldset->addText(self::START_ADVANCED_TITLE, __("Titulek:", "RLG_DOMAIN"));
-        $fieldset->addText(self::START_ADVANCED_DATE, __("Datum:", "RLG_DOMAIN"));
-        $fieldset->addText(self::START_ADVANCED_PLACE, __("Místo:", "RLG_DOMAIN"));
-        $fieldset->addText(self::START_ADVANCED_ADDRESS, __("Adresa:", "RLG_DOMAIN"));
-        $fieldset->addNumeric(self::START_ADVANCED_MAX_CANDIDATE, __("Maximální počet uchazečů:", "RLG_DOMAIN"));
-        $fieldset->addNumeric(self::START_ADVANCED_ACTUAL_CANDIDATE, __("Aktuální počet uchazečů:", "RLG_DOMAIN"));
-        $fieldset->addNumeric(self::START_ADVANCED_PRICE, __("Cena:", "RLG_DOMAIN"));
+        $fieldset->addText(self::START_ADVANCED_TITLE, __("Titulek:", "WPA_DOMAIN"));
+        $fieldset->addText(self::START_ADVANCED_DATE, __("Datum:", "WPA_DOMAIN"));
+        $fieldset->addText(self::START_ADVANCED_PLACE, __("Místo:", "WPA_DOMAIN"));
+        $fieldset->addText(self::START_ADVANCED_ADDRESS, __("Adresa:", "WPA_DOMAIN"));
+        $fieldset->addNumeric(self::START_ADVANCED_MAX_CANDIDATE, __("Maximální počet uchazečů:", "WPA_DOMAIN"));
+        $fieldset->addNumeric(self::START_ADVANCED_ACTUAL_CANDIDATE, __("Aktuální počet uchazečů:", "WPA_DOMAIN"));
+        $fieldset->addNumeric(self::START_ADVANCED_PRICE, __("Cena:", "WPA_DOMAIN"));
         return $fieldset;
     }
 
@@ -98,13 +98,13 @@ class PageThemeConfig implements \KT_Configable
 
     public static function getContactPersonFieldset()
     {
-        $fieldset = new \KT_Form_Fieldset(self::CONTACT_PERSON_FIELDSET, __("Kontaktní osoba", "RLG_DOMAIN"));
+        $fieldset = new \KT_Form_Fieldset(self::CONTACT_PERSON_FIELDSET, __("Kontaktní osoba", "WPA_DOMAIN"));
         $fieldset->setPostPrefix(self::CONTACT_PERSON_FIELDSET);
 
-        $fieldset->addText(self::CONTACT_PERSON_NAME, __("Jméno:", "RLG_DOMAIN"));
-        $fieldset->addText(self::CONTACT_PERSON_PHONE, __("Telefon:", "RLG_DOMAIN"));
-        $fieldset->addText(self::CONTACT_PERSON_MAIL, __("E-mail:", "RLG_DOMAIN"));
-        $fieldset->addMedia(self::CONTACT_PERSON_PHOTO, __("Foto:", "RLG_DOMAIN"));
+        $fieldset->addText(self::CONTACT_PERSON_NAME, __("Jméno:", "WPA_DOMAIN"));
+        $fieldset->addText(self::CONTACT_PERSON_PHONE, __("Telefon:", "WPA_DOMAIN"));
+        $fieldset->addText(self::CONTACT_PERSON_MAIL, __("E-mail:", "WPA_DOMAIN"));
+        $fieldset->addMedia(self::CONTACT_PERSON_PHOTO, __("Foto:", "WPA_DOMAIN"));
         return $fieldset;
     }
 
@@ -121,16 +121,16 @@ class PageThemeConfig implements \KT_Configable
 
     public static function getTitlesFieldset()
     {
-        $fieldset = new \KT_Form_Fieldset(self::TITLES_FIELDSET, __("Titulky sekcí", "RLG_DOMAIN"));
+        $fieldset = new \KT_Form_Fieldset(self::TITLES_FIELDSET, __("Titulky sekcí", "WPA_DOMAIN"));
         $fieldset->setPostPrefix(self::TITLES_FIELDSET);
 
-        $fieldset->addText(self::TITLES_HOME, __("Úvod:", "RLG_DOMAIN"));
-        $fieldset->addText(self::TITLES_START, __("Kdy začínáme:", "RLG_DOMAIN"));
-        $fieldset->addText(self::TITLES_PROGRAMM, __("Program:", "RLG_DOMAIN"));
-        $fieldset->addText(self::TITLES_LECTORS, __("Přednášející:", "RLG_DOMAIN"));
-        $fieldset->addText(self::TITLES_FAQ, __("FAQ:", "RLG_DOMAIN"));
-        $fieldset->addText(self::TITLES_CONTACT_PERSON, __("Kontaktní osoba:", "RLG_DOMAIN"));
-        $fieldset->addText(self::TITLES_APPLICATION, __("Přihláška:", "RLG_DOMAIN"));
+        $fieldset->addText(self::TITLES_HOME, __("Úvod:", "WPA_DOMAIN"));
+        $fieldset->addText(self::TITLES_START, __("Kdy začínáme:", "WPA_DOMAIN"));
+        $fieldset->addText(self::TITLES_PROGRAMM, __("Program:", "WPA_DOMAIN"));
+        $fieldset->addText(self::TITLES_LECTORS, __("Přednášející:", "WPA_DOMAIN"));
+        $fieldset->addText(self::TITLES_FAQ, __("FAQ:", "WPA_DOMAIN"));
+        $fieldset->addText(self::TITLES_CONTACT_PERSON, __("Kontaktní osoba:", "WPA_DOMAIN"));
+        $fieldset->addText(self::TITLES_APPLICATION, __("Přihláška:", "WPA_DOMAIN"));
         return $fieldset;
     }
 
@@ -141,10 +141,10 @@ class PageThemeConfig implements \KT_Configable
 
     public static function getOtherFieldset()
     {
-        $fieldset = new \KT_Form_Fieldset(self::OTHER_FIELDSET, __("Ostatní", "RLG_DOMAIN"));
+        $fieldset = new \KT_Form_Fieldset(self::OTHER_FIELDSET, __("Ostatní", "WPA_DOMAIN"));
         $fieldset->setPostPrefix(self::OTHER_FIELDSET);
 
-        $fieldset->addText(self::OTHER_NEAREST_DATE, __("Nejbližší termín:", "RLG_DOMAIN"));
+        $fieldset->addText(self::OTHER_NEAREST_DATE, __("Nejbližší termín:", "WPA_DOMAIN"));
         return $fieldset;
     }
 
@@ -154,17 +154,17 @@ class PageThemeConfig implements \KT_Configable
     const ANALYTICS_HEADER_CODE = self::ANALYTICS_FIELDSET . "-header-code";
     const ANALYTICS_BODY_CODE = self::ANALYTICS_FIELDSET . "-body-code";
 
-//    public static function getAnalyticsFieldset()
-//    {
-//        $fieldset = new \KT_Form_Fieldset(self::ANALYTICS_FIELDSET, __("Analytika", "RLG_DOMAIN"));
-//        $fieldset->setPostPrefix(self::ANALYTICS_FIELDSET);
-//
-//        $fieldset->addTextarea(self::ANALYTICS_HEADER_CODE, __("Kód v header:", "RLG_DOMAIN"))
-//            ->setFilterSanitize(FILTER_DEFAULT);
-//
-//        $fieldset->addTextarea(self::ANALYTICS_BODY_CODE, __("Kód v body:", "RLG_DOMAIN"))
-//            ->setFilterSanitize(FILTER_DEFAULT);
-//
-//        return $fieldset;
-//    }
+    public static function getAnalyticsFieldset()
+    {
+        $fieldset = new \KT_Form_Fieldset(self::ANALYTICS_FIELDSET, __("Analytika", "WPA_DOMAIN"));
+        $fieldset->setPostPrefix(self::ANALYTICS_FIELDSET);
+
+        $fieldset->addTextarea(self::ANALYTICS_HEADER_CODE, __("Kód v header:", "WPA_DOMAIN"))
+            ->setFilterSanitize(FILTER_DEFAULT);
+
+        $fieldset->addTextarea(self::ANALYTICS_BODY_CODE, __("Kód v body:", "WPA_DOMAIN"))
+            ->setFilterSanitize(FILTER_DEFAULT);
+
+        return $fieldset;
+    }
 }

@@ -34,11 +34,11 @@ class LecturerConfig implements \KT_Configable
 
     public static function getParamsFieldset()
     {
-        $fieldset = new \KT_Form_Fieldset(self::PARAMS_FIELDSET, __("Parametry", "RLG_DOMAIN"));
+        $fieldset = new \KT_Form_Fieldset(self::PARAMS_FIELDSET, __("Parametry", "WPA_DOMAIN"));
         $fieldset->setPostPrefix(self::PARAMS_FIELDSET);
 
-        $fieldset->addText(self::PARAMS_WWW, __("WWW stránky:", "RLG_DOMAIN"));
-        $fieldset->addText(self::PARAMS_DESCRIPTION, __("Popisek:", "RLG_DOMAIN"));
+        $fieldset->addText(self::PARAMS_WWW, __("WWW stránky:", "WPA_DOMAIN"));
+        $fieldset->addText(self::PARAMS_DESCRIPTION, __("Popisek:", "WPA_DOMAIN"));
 
         return $fieldset;
     }
