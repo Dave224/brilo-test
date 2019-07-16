@@ -6,14 +6,18 @@ $Lecturer = LecturerQueryFactory::create();
 $ThemeSettings = PageThemeFactory::create();
 ?>
 
-<section id="contacts" class="lecturers-section pt-2 pt-lg-3">
-    <div class="container">
-        <header class="mb-2 mb-lg-3">
-            <h2 class="base-heading"><?= $ThemeSettings->getTitleLectors();?></h2>
-        </header>
+<?php if ($Lecturer->hasPosts()) :?>
+    <section id="contacts" class="lecturers-section pt-2 pt-lg-3">
+        <div class="container">
+            <?php if ($ThemeSettings->isTitlesTitlelectors()) :?>
+                <header class="mb-2 mb-lg-3">
+                    <h2 class="base-heading"><?= $ThemeSettings->getTitleLectors();?></h2>
+                </header>
+            <?php endif; ?>
 
-        <div class="row justify-content-center">
-            <?php $Lecturer->thePosts();?>
+            <div class="row justify-content-center">
+                <?php $Lecturer->thePosts();?>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
+<?php endif; ?>

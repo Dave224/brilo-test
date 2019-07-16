@@ -161,4 +161,133 @@ class PageThemeModel extends \KT_WP_Options_Base_Model
 
     //? --- veřejné metody ------------------------------------------------------
 
+    public function isTitlesTitlehome()
+    {
+        return Util::issetAndNotEmpty($this->getTitleHome());
+    }
+
+    public function isTitlesTitlelectors()
+    {
+        return Util::issetAndNotEmpty($this->getTitleLectors());
+    }
+
+    public function isTitlesTitlestart()
+    {
+        return Util::issetAndNotEmpty($this->getTitleStart());
+    }
+
+    public function isTitlesTitleprogramm()
+    {
+        return Util::issetAndNotEmpty($this->getTitleProgramm());
+    }
+
+    public function isTitlesTitlefaq()
+    {
+        return Util::issetAndNotEmpty($this->getTitleFaq());
+    }
+
+    public function isTitlesTitlecontactperson()
+    {
+        return Util::issetAndNotEmpty($this->getTitleContactPerson());
+    }
+
+    public function isTitlesTitleapplication()
+    {
+        return Util::issetAndNotEmpty($this->getTitleApplication());
+    }
+
+    public function isStartbeginnersTitle()
+    {
+        return Util::issetAndNotEmpty($this->getStartBeginnersTitle());
+    }
+
+    public function isStartbeginnersDate()
+    {
+        return Util::issetAndNotEmpty($this->getStartBeginnersDate());
+    }
+
+    public function isStartbeginnersPlace()
+    {
+        return Util::issetAndNotEmpty($this->getStartBeginnersPlace());
+    }
+
+    public function isStartbeginnersAddress()
+    {
+        return Util::issetAndNotEmpty($this->getStartBeginnersAddress());
+    }
+
+    public function isStartbeginnersMaxcandidate()
+    {
+        return Util::issetAndNotEmpty($this->getStartBeginnersMaxCandidate());
+    }
+
+    public function isStartbeginnersActualcandidate()
+    {
+        return Util::issetAndNotEmpty($this->getStartBeginnersActualCandidate());
+    }
+
+    public function isStartbeginnersPrice()
+    {
+        return Util::issetAndNotEmpty($this->getStartBeginnersPrice());
+    }
+
+    public function isStartadvancedTitle()
+    {
+        return Util::issetAndNotEmpty($this->getStartAdvancedTitle());
+    }
+
+    public function isStartadvancedDate()
+    {
+        return Util::issetAndNotEmpty($this->getStartAdvancedDate());
+    }
+
+    public function isStartadvancedPlace()
+    {
+        return Util::issetAndNotEmpty($this->getStartAdvancedPlace());
+    }
+
+    public function isStartadvancedAddress()
+    {
+        return Util::issetAndNotEmpty($this->getStartAdvancedAddress());
+    }
+
+    public function isStartadvancedMaxcandidate()
+    {
+        return Util::issetAndNotEmpty($this->getStartAdvancedMaxCandidate());
+    }
+
+    public function isStartadvancedActualcandidate()
+    {
+        return Util::issetAndNotEmpty($this->getStartAdvancedActualCandidate());
+    }
+
+    public function isStartadvancedPrice()
+    {
+        return Util::issetAndNotEmpty($this->getStartAdvancedPrice());
+    }
+
+    public function isContactpersonName()
+    {
+        return Util::issetAndNotEmpty($this->getContactPersonName());
+    }
+
+    public function isContactpersonPhone()
+    {
+        return Util::issetAndNotEmpty($this->getContactPersonPhone());
+    }
+
+    public function isContactpersonMail()
+    {
+        return Util::issetAndNotEmpty($this->getContactPersonMail());
+    }
+
+    public function isContactpersonPhoto()
+    {
+        return Util::issetAndNotEmpty($this->getContactPersonPhoto());
+    }
+
+    public function isOtherNearestdate()
+    {
+        return Util::issetAndNotEmpty($this->getOtherNearestDate());
+    }
 }

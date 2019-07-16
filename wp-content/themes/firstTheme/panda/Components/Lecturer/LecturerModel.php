@@ -34,4 +34,19 @@ class LecturerModel extends \KT_WP_Post_Base_Model
         return Util::getImageSrc($this->ThumbnailId, IMAGE_SIZE_192x192);
     }
 
+    public function isParamsWww()
+    {
+        return Util::issetAndNotEmpty($this->getLecturerWWW());
+    }
+
+    public function isParamsDescription()
+    {
+        return Util::issetAndNotEmpty($this->getLecturerDescription());
+    }
+
+    public function isParamsThumbnailsrc()
+    {
+        return Util::issetAndNotEmpty($this->getThumbnailSrc());
+    }
+
 }

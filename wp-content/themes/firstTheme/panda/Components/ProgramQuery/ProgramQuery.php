@@ -7,14 +7,17 @@ use Utils\Util;
 class ProgramQuery extends \KT_Presenter_Base
 {
     const DEFAULT_COUNT = 15;
+    const PROGRAM_LIST = 'program-list';
 
     private $posts;
     private $postsCount;
     private $maxCount;
+    private $levelId;
 
-    public function __construct($maxCount = self::DEFAULT_COUNT)
+    public function __construct($levelId,$maxCount = self::DEFAULT_COUNT)
     {
         parent::__construct();
+        $this->levelId = $levelId;
         $this->maxCount = Util::tryGetInt($maxCount) ?: self::DEFAULT_COUNT;
     }
 
@@ -40,6 +43,12 @@ class ProgramQuery extends \KT_Presenter_Base
         return $this->postsCount;
     }
 
+    /** @return String */
+    public function getLevelId()
+    {
+        return $this->levelId;
+    }
+
     /** @return int */
     public function getMaxCount()
     {
@@ -62,20 +71,6 @@ class ProgramQuery extends \KT_Presenter_Base
         }
     }
 
-    public function theBegginersPosts()
-    {
-        if ($this->hasPosts()) {
-            self::itemsBegginnersLoop($this->getPosts(), PROGRAM_LOOP);
-        }
-    }
-
-    public function theAdvancedPosts()
-    {
-        if ($this->hasPosts()) {
-            self::itemsAdvancedLoop($this->getPosts(), PROGRAM_LOOP);
-        }
-    }
-
     public function itemsLoop(array $items, $componentName)
     {
         $componentPath = locate_template(COMPONENTS_PATH . "$componentName/$componentName.php");
@@ -89,42 +84,6 @@ class ProgramQuery extends \KT_Presenter_Base
             wp_reset_postdata();
         }
     }
-
-    public function itemsBegginnersLoop(array $items, $componentName)
-    {
-        $componentPath = locate_template(COMPONENTS_PATH . "$componentName/$componentName.php");
-
-        if (Util::arrayIssetAndNotEmpty($items) && file_exists($componentPath)) {
-            foreach ($items as $item) {
-                global $post;
-                $metaData = get_post_meta($item->ID);
-                if ($metaData['program-list'][0] == "Pro začátečníky"){
-                    $post = $item;
-                    include($componentPath);
-                }
-            }
-            wp_reset_postdata();
-        }
-    }
-
-    public function itemsAdvancedLoop(array $items, $componentName)
-    {
-        $componentPath = locate_template(COMPONENTS_PATH . "$componentName/$componentName.php");
-
-        if (Util::arrayIssetAndNotEmpty($items) && file_exists($componentPath)) {
-            foreach ($items as $item) {
-                global $post;
-                $metaData = get_post_meta($item->ID);
-                if ($metaData['program-list'][0] == "Pro pokročilé"){
-                    $post = $item;
-                    include($componentPath);
-                }
-            }
-            wp_reset_postdata();
-        }
-    }
-
-
     // --- neveřejné metody ------------------------------
 
 
@@ -136,6 +95,12 @@ class ProgramQuery extends \KT_Presenter_Base
             "posts_per_page" => $this->getMaxCount(),
             "orderby" => "menu_order date",
             "order" => \KT_Repository::ORDER_ASC,
+            'meta_query'  => array(
+                array(
+                    'key' => self::PROGRAM_LIST,
+                    'value' => $this->getLevelId(),
+                    ),
+            ),
         ];
         $query = new \WP_Query();
         $posts = $query->query($args);

@@ -4,12 +4,16 @@ use Components\ProgramQuery\ProgramQueryFactory;
 
 $ThemeSettings = PageThemeFactory::create();
 $Program = ProgramQueryFactory::create();
-?>
+$ProgramAdvanced = ProgramQueryFactory::create2();
 
+?>
+<?php if ($Program->hasPosts()) :?>
 <section id="program" class="container program-list-section pt-3 mb-1 mb-lg-3">
-	<header class="mb-2 mb-lg-3">
+    <?php if ($ThemeSettings->isTitlesTitleprogramm()) :?>
+    <header class="mb-2 mb-lg-3">
 		<h2 class="base-heading"><?= $ThemeSettings->getTitleProgramm();?></h2>
     </header>
+    <?php endif; ?>
 
     <div class="row justify-content-between">
         <div class="col-md-6 col-lg-5 program-list-block">
@@ -17,7 +21,7 @@ $Program = ProgramQueryFactory::create();
                 <h3 class="program-list-block__heading"><?php _e("Pro začátečníky", "WPA_DOMAIN")?></h3>
             </header>
             <ol class="program-list">
-                <?php $Program->theBegginersPosts();?>
+                <?php $Program->thePosts();?>
             </ol>
         </div>
 
@@ -26,8 +30,9 @@ $Program = ProgramQueryFactory::create();
                 <h3 class="program-list-block__heading"><?php _e("Pro pokročilé", "WPA_DOMAIN")?></h3>
             </header>
             <ol class="program-list">
-                <?php $Program->theAdvancedPosts();?>
+                <?php $ProgramAdvanced->thePosts();?>
             </ol>
         </div>
     </div>
 </section>
+<?php endif; ?>

@@ -3,7 +3,7 @@ Předělat banner, contactPerson udělat sekce - DONE
 Metaboxy, konstanty ke komponentám - DONE
 Preklady : php _e("Prihláška", "WPA_DOMAIN") - DONE
 Echo nahradit za rovná se - DONE
-Query u programu
+Query u programu - DONE?
 Form
 Promazat co není potřeba - DONE
-Ošetřit vstupy ify, zda je vyplněno pole v adminu
+Ošetřit vstupy ify, zda je vyplněno pole v adminu - DONE

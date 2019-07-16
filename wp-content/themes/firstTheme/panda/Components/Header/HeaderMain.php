@@ -23,13 +23,15 @@ $Theme = PageThemeFactory::create(); ?>
 		</ul>
 	</nav>
 
-	<div class="closest-term">
-		<div class="closest-term__icon"><img src="<?= get_template_directory_uri(); ?>/images/ico/calendar.svg" alt="calendar" /></div>
+	<?php if ($Theme->isOtherNearestdate()) :?>
+		<div class="closest-term">
+			<div class="closest-term__icon"><img src="<?= get_template_directory_uri(); ?>/images/ico/calendar.svg" alt="calendar" /></div>
 
-		<div class="closest-term__text"><?php _e("Nejbližší termín", "WPA_DOMAIN")?></div>
+			<div class="closest-term__text"><?php _e("Nejbližší termín", "WPA_DOMAIN")?></div>
 
-		<div class="closest-term__date"><?= $Theme->getOtherNearestDate()?></div>
-	</div>
+			<div class="closest-term__date"><?= $Theme->getOtherNearestDate()?></div>
+		</div>
+	<?php endif; ?>
 
 	<div class="btn-application-wrap"><a href="#app-form-section" data-kt-top-offset="0" data-kt-target="#app-form-section" class="btn btn--primary"><?php _e("Přihláška", "WPA_DOMAIN")?></a></div>
 

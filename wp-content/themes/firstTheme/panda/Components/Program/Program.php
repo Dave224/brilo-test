@@ -6,4 +6,6 @@ $Program = ProgramFactory::create();
 $ThemeSettings = PageThemeFactory::create();
 ?>
 
-<li data-aos="fade-up"><?= $Program->getContent(); ?></li>
+<?php if (!empty($Program->getContent())) :?>
+    <li data-aos="fade-up"><?= $Program->getContent(); ?></li>
+<?php endif; ?>
