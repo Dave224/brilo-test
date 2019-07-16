@@ -1,13 +1,14 @@
 <?php
 use Components\PageTheme\PageThemeFactory;
 use Components\ProgramQuery\ProgramQueryFactory;
+use Enums\ProgramEnum;
 
 $ThemeSettings = PageThemeFactory::create();
-$Program = ProgramQueryFactory::create();
-$ProgramAdvanced = ProgramQueryFactory::create2();
+$ProgramBegginers = ProgramQueryFactory::create(ProgramEnum::BEGINNERS);
+$ProgramAdvanced = ProgramQueryFactory::create(ProgramEnum::ADVANCED);
 
 ?>
-<?php if ($Program->hasPosts()) :?>
+<?php if ($ProgramBegginers->hasPosts()) :?>
 <section id="program" class="container program-list-section pt-3 mb-1 mb-lg-3">
     <?php if ($ThemeSettings->isTitlesTitleprogramm()) :?>
     <header class="mb-2 mb-lg-3">
@@ -21,7 +22,7 @@ $ProgramAdvanced = ProgramQueryFactory::create2();
                 <h3 class="program-list-block__heading"><?php _e("Pro začátečníky", "WPA_DOMAIN")?></h3>
             </header>
             <ol class="program-list">
-                <?php $Program->thePosts();?>
+                <?php $ProgramBegginers->thePosts();?>
             </ol>
         </div>
 
